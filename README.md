@@ -38,19 +38,7 @@ $ jupyter notebook
 3. Navigate to your project directory.
 4. Create a jupyter notebook under tesserocr_env.
 
-![alt text](https://github.com/michaelfong2017/tesserocr/tree/master/documentation/images/jupyter_env.jpeg)
+![alt text](https://github.com/michaelfong2017/tesserocr/blob/master/documentation/images/jupyter_env.jpeg?raw=true)
 
 ## Usage
-```python
-from tesserocr import PyTessBaseAPI
-
-images = ['sample.jpg', 'sample2.jpg', 'sample3.jpg']
-
-with PyTessBaseAPI() as api:
-    for img in images:
-        api.SetImageFile(img)
-        print(api.GetUTF8Text())
-        print(api.AllWordConfidences())
-# api is automatically finalized when used in a with-statement (context manager).
-# otherwise api.End() should be explicitly called when it's no longer needed.
-```
+Please refer to [my jupyter notebook example](https://github.com/michaelfong2017/tesserocr/blob/master/src/example.ipynb).
