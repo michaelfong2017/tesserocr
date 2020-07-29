@@ -1,0 +1,108 @@
+{
+  "build": "py37h570ac47_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "leptonica",
+    "libcxx >=9.0.1",
+    "pillow",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "tesseract >=4.1.1,<4.1.2.0a0",
+    "tesseract >=4.1.1,<4.2.0a0"
+  ],
+  "extracted_package_dir": "/Users/michael/opt/anaconda3/pkgs/tesserocr-2.5.1-py37h570ac47_1",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/LICENSE",
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/METADATA",
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/RECORD",
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/tesserocr.cpython-37m-darwin.so"
+  ],
+  "fn": "tesserocr-2.5.1-py37h570ac47_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/michael/opt/anaconda3/pkgs/tesserocr-2.5.1-py37h570ac47_1",
+    "type": 1
+  },
+  "md5": "a369df326e048f863b99275cc5024edd",
+  "name": "tesserocr",
+  "package_tarball_full_path": "/Users/michael/opt/anaconda3/pkgs/tesserocr-2.5.1-py37h570ac47_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "857f72c802e7e1719bbcca8f2f61934ab678e7abc46e399cb6851749e29f3c73",
+        "sha256_in_prefix": "857f72c802e7e1719bbcca8f2f61934ab678e7abc46e399cb6851749e29f3c73",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "bd2a00a7f5952c5ef7cdac742a90f83416a1e1d533e1334fec9eef3605784c94",
+        "sha256_in_prefix": "bd2a00a7f5952c5ef7cdac742a90f83416a1e1d533e1334fec9eef3605784c94",
+        "size_in_bytes": 9148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a3f5cd21881110cee8bf6dc21acb9064b4fae66673343395872e20da2efefd0e",
+        "sha256_in_prefix": "a3f5cd21881110cee8bf6dc21acb9064b4fae66673343395872e20da2efefd0e",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "sha256_in_prefix": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dcbe01e70ff84dc3cfaec39abce54a50d7deb6fd1f0b1afb3a2f3fc388232014",
+        "sha256_in_prefix": "dcbe01e70ff84dc3cfaec39abce54a50d7deb6fd1f0b1afb3a2f3fc388232014",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr-2.5.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "76cdbc51ad1bb7541a9278e45a51f63e16e974190d721925862dd43fadfc7c84",
+        "sha256_in_prefix": "76cdbc51ad1bb7541a9278e45a51f63e16e974190d721925862dd43fadfc7c84",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.7/site-packages/tesserocr.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/tesserocr_1594394777968/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "edadc0a5d5f2c529b81089343fef27ce9af6867ab2ac4c1385f68b83e7589d92",
+        "sha256_in_prefix": "c443c48cfbe75cbf08cd6221dd28a704bf6b3241d5cbb1dac74c7c8a1f4f959a",
+        "size_in_bytes": 409520
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tesserocr",
+  "sha256": "baad7bb7c132e0b22fbe05c0f85f9ce106526a5ee49aaf736e801480ca1ce802",
+  "size": 132786,
+  "subdir": "osx-64",
+  "timestamp": 1594395047460,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/tesserocr-2.5.1-py37h570ac47_1.tar.bz2",
+  "version": "2.5.1"
+}

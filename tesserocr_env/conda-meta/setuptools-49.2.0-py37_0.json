@@ -1,0 +1,2384 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2016.9.26",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/Users/michael/opt/anaconda3/pkgs/setuptools-49.2.0-py37_0",
+  "features": "",
+  "files": [
+    "bin/easy_install",
+    "lib/python3.7/site-packages/__pycache__/easy_install.cpython-37.pyc",
+    "lib/python3.7/site-packages/easy_install.py",
+    "lib/python3.7/site-packages/pkg_resources/__init__.py",
+    "lib/python3.7/site-packages/pkg_resources/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/__init__.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/appdirs.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/pyparsing.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__about__.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__init__.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/tags.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_compat.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_structures.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/markers.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/tags.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/utils.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/version.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py",
+    "lib/python3.7/site-packages/pkg_resources/_vendor/six.py",
+    "lib/python3.7/site-packages/pkg_resources/extern/__init__.py",
+    "lib/python3.7/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/entry_points.txt",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/zip-safe",
+    "lib/python3.7/site-packages/setuptools/__init__.py",
+    "lib/python3.7/site-packages/setuptools/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/_deprecation_warning.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/_imp.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/archive_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/build_meta.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/config.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/dep_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/depends.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/dist.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/distutils_patch.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/errors.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/extension.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/glob.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/installer.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/launch.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/lib2to3_ex.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/monkey.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/msvc.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/namespaces.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/package_index.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/py27compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/py31compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/py33compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/py34compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/sandbox.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/ssl_support.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/unicode_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/wheel.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/__pycache__/windows_support.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_deprecation_warning.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/__init__.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/_msvccompiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/archive_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/bcppcompiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/ccompiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/cmd.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/config.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/core.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/cygwinccompiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/debug.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/dep_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/dir_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/dist.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/errors.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/extension.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/fancy_getopt.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/file_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/filelist.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/log.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/msvc9compiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/msvccompiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/spawn.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/sysconfig.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/text_file.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/unixccompiler.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/versionpredicate.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/_msvccompiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/archive_util.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/bcppcompiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/ccompiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/cmd.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__init__.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_dumb.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_msi.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_rpm.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_wininst.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_clib.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_ext.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_py.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_scripts.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/check.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/clean.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/config.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_data.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_egg_info.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_headers.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_lib.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_scripts.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/register.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/sdist.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/upload.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/bdist.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_dumb.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_msi.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_rpm.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_wininst.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/build.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/build_clib.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/build_ext.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/build_py.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/build_scripts.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/check.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/clean.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/config.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/install.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/install_data.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/install_egg_info.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/install_headers.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/install_lib.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/install_scripts.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/register.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/sdist.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/command/upload.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/config.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/core.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/cygwinccompiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/debug.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/dep_util.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/dir_util.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/dist.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/errors.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/extension.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/fancy_getopt.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/file_util.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/filelist.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/log.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/msvc9compiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/msvccompiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/spawn.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/sysconfig.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/text_file.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/unixccompiler.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/util.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/version.py",
+    "lib/python3.7/site-packages/setuptools/_distutils/versionpredicate.py",
+    "lib/python3.7/site-packages/setuptools/_imp.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/__init__.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/ordered_set.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/pyparsing.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/six.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/ordered_set.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__about__.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__init__.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/__about__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/_structures.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/markers.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/requirements.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/specifiers.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/tags.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/version.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/_compat.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/_structures.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/markers.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/requirements.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/specifiers.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/tags.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/utils.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/packaging/version.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py",
+    "lib/python3.7/site-packages/setuptools/_vendor/six.py",
+    "lib/python3.7/site-packages/setuptools/archive_util.py",
+    "lib/python3.7/site-packages/setuptools/build_meta.py",
+    "lib/python3.7/site-packages/setuptools/cli-32.exe",
+    "lib/python3.7/site-packages/setuptools/cli-64.exe",
+    "lib/python3.7/site-packages/setuptools/cli.exe",
+    "lib/python3.7/site-packages/setuptools/command/__init__.py",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/alias.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_egg.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_rpm.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/build_clib.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/build_ext.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/build_py.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/develop.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/dist_info.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/easy_install.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/egg_info.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/install.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/install_lib.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/install_scripts.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/py36compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/register.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/rotate.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/saveopts.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/sdist.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/setopt.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/test.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/upload.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/__pycache__/upload_docs.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/command/alias.py",
+    "lib/python3.7/site-packages/setuptools/command/bdist_egg.py",
+    "lib/python3.7/site-packages/setuptools/command/bdist_rpm.py",
+    "lib/python3.7/site-packages/setuptools/command/bdist_wininst.py",
+    "lib/python3.7/site-packages/setuptools/command/build_clib.py",
+    "lib/python3.7/site-packages/setuptools/command/build_ext.py",
+    "lib/python3.7/site-packages/setuptools/command/build_py.py",
+    "lib/python3.7/site-packages/setuptools/command/develop.py",
+    "lib/python3.7/site-packages/setuptools/command/dist_info.py",
+    "lib/python3.7/site-packages/setuptools/command/easy_install.py",
+    "lib/python3.7/site-packages/setuptools/command/egg_info.py",
+    "lib/python3.7/site-packages/setuptools/command/install.py",
+    "lib/python3.7/site-packages/setuptools/command/install_egg_info.py",
+    "lib/python3.7/site-packages/setuptools/command/install_lib.py",
+    "lib/python3.7/site-packages/setuptools/command/install_scripts.py",
+    "lib/python3.7/site-packages/setuptools/command/launcher manifest.xml",
+    "lib/python3.7/site-packages/setuptools/command/py36compat.py",
+    "lib/python3.7/site-packages/setuptools/command/register.py",
+    "lib/python3.7/site-packages/setuptools/command/rotate.py",
+    "lib/python3.7/site-packages/setuptools/command/saveopts.py",
+    "lib/python3.7/site-packages/setuptools/command/sdist.py",
+    "lib/python3.7/site-packages/setuptools/command/setopt.py",
+    "lib/python3.7/site-packages/setuptools/command/test.py",
+    "lib/python3.7/site-packages/setuptools/command/upload.py",
+    "lib/python3.7/site-packages/setuptools/command/upload_docs.py",
+    "lib/python3.7/site-packages/setuptools/config.py",
+    "lib/python3.7/site-packages/setuptools/dep_util.py",
+    "lib/python3.7/site-packages/setuptools/depends.py",
+    "lib/python3.7/site-packages/setuptools/dist.py",
+    "lib/python3.7/site-packages/setuptools/distutils_patch.py",
+    "lib/python3.7/site-packages/setuptools/errors.py",
+    "lib/python3.7/site-packages/setuptools/extension.py",
+    "lib/python3.7/site-packages/setuptools/extern/__init__.py",
+    "lib/python3.7/site-packages/setuptools/extern/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/setuptools/glob.py",
+    "lib/python3.7/site-packages/setuptools/gui-32.exe",
+    "lib/python3.7/site-packages/setuptools/gui-64.exe",
+    "lib/python3.7/site-packages/setuptools/gui.exe",
+    "lib/python3.7/site-packages/setuptools/installer.py",
+    "lib/python3.7/site-packages/setuptools/launch.py",
+    "lib/python3.7/site-packages/setuptools/lib2to3_ex.py",
+    "lib/python3.7/site-packages/setuptools/monkey.py",
+    "lib/python3.7/site-packages/setuptools/msvc.py",
+    "lib/python3.7/site-packages/setuptools/namespaces.py",
+    "lib/python3.7/site-packages/setuptools/package_index.py",
+    "lib/python3.7/site-packages/setuptools/py27compat.py",
+    "lib/python3.7/site-packages/setuptools/py31compat.py",
+    "lib/python3.7/site-packages/setuptools/py33compat.py",
+    "lib/python3.7/site-packages/setuptools/py34compat.py",
+    "lib/python3.7/site-packages/setuptools/sandbox.py",
+    "lib/python3.7/site-packages/setuptools/script (dev).tmpl",
+    "lib/python3.7/site-packages/setuptools/script.tmpl",
+    "lib/python3.7/site-packages/setuptools/ssl_support.py",
+    "lib/python3.7/site-packages/setuptools/unicode_utils.py",
+    "lib/python3.7/site-packages/setuptools/version.py",
+    "lib/python3.7/site-packages/setuptools/wheel.py",
+    "lib/python3.7/site-packages/setuptools/windows_support.py"
+  ],
+  "fn": "setuptools-49.2.0-py37_0.conda",
+  "legacy_bz2_md5": "2253de112e0310722cadd810a8f00ddd",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/michael/opt/anaconda3/pkgs/setuptools-49.2.0-py37_0",
+    "type": 1
+  },
+  "md5": "bbf5cb8dad89abd31294a732bb816bad",
+  "name": "setuptools",
+  "package_tarball_full_path": "/Users/michael/opt/anaconda3/pkgs/setuptools-49.2.0-py37_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/easy_install",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7d8cb796688b07706383f874a0981d7b548c0dadd2e8c3a06b550678eb1b6b85",
+        "sha256_in_prefix": "8785d0482084dc12f25120bc0bef523399c7415a4df0e2b20a94068845a71146",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/easy_install.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "675f5557db28e0cbb463d22ea648bca434ea67fdef999a4b12527c7fdf1145a4",
+        "sha256_in_prefix": "675f5557db28e0cbb463d22ea648bca434ea67fdef999a4b12527c7fdf1145a4",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.7/site-packages/easy_install.py",
+        "path_type": "hardlink",
+        "sha256": "3030bdbede40c43b175f9a9c2a5073d939d6e93a6ebff0286e77e1089f57dcf3",
+        "sha256_in_prefix": "3030bdbede40c43b175f9a9c2a5073d939d6e93a6ebff0286e77e1089f57dcf3",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e381b62e42ff9576c3ce34ee90b991e5b68b42d1374b821a15c89264f0dc38cf",
+        "sha256_in_prefix": "e381b62e42ff9576c3ce34ee90b991e5b68b42d1374b821a15c89264f0dc38cf",
+        "size_in_bytes": 108481
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "76c9e1fad462eb4473c6fe840f8889d2c5430a92aaca8a4280b5d96eba9d0544",
+        "sha256_in_prefix": "76c9e1fad462eb4473c6fe840f8889d2c5430a92aaca8a4280b5d96eba9d0544",
+        "size_in_bytes": 99833
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7ef5d7551402b4cba75a2f754882885dce402af05a2f5393827c41ce53a83ca",
+        "sha256_in_prefix": "a7ef5d7551402b4cba75a2f754882885dce402af05a2f5393827c41ce53a83ca",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/appdirs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e73ffc5a81cdb0edd0ac1556af787d2a0bd13b309115c2909a9aff5b58fa500c",
+        "sha256_in_prefix": "e73ffc5a81cdb0edd0ac1556af787d2a0bd13b309115c2909a9aff5b58fa500c",
+        "size_in_bytes": 20636
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/pyparsing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f111356c9af7466c950cf8d926816d8f8efe117f9cee17d0ecc7b644cd304ffc",
+        "sha256_in_prefix": "f111356c9af7466c950cf8d926816d8f8efe117f9cee17d0ecc7b644cd304ffc",
+        "size_in_bytes": 202991
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "36db597618304f0dab4dce6667af7decfd3e2a551cb5bd7aa6f3be95cad60ab7",
+        "sha256_in_prefix": "36db597618304f0dab4dce6667af7decfd3e2a551cb5bd7aa6f3be95cad60ab7",
+        "size_in_bytes": 24349
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py",
+        "path_type": "hardlink",
+        "sha256": "3227af504bafde5fe6408487e52174b210e4fc13611c7cd88803eb4f72133782",
+        "sha256_in_prefix": "3227af504bafde5fe6408487e52174b210e4fc13611c7cd88803eb4f72133782",
+        "size_in_bytes": 24701
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "0a9b8c4b287557b69dc3c40c8d62a46372ed76a4549115f832027a9c5e2cb4cd",
+        "sha256_in_prefix": "0a9b8c4b287557b69dc3c40c8d62a46372ed76a4549115f832027a9c5e2cb4cd",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9e9dba795e045f8c18ec23df9b9f4d078c77f94c7db53c330e2a4256f31c3ec",
+        "sha256_in_prefix": "e9e9dba795e045f8c18ec23df9b9f4d078c77f94c7db53c330e2a4256f31c3ec",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "089bb13fde792859c75bbb8ba9eaa1e8f6adcee5124a1d0cf6e2e5af6479448a",
+        "sha256_in_prefix": "089bb13fde792859c75bbb8ba9eaa1e8f6adcee5124a1d0cf6e2e5af6479448a",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf59049e172dd146188124a10e12a2302c89fce299ab994150b3d3fc3cf00c17",
+        "sha256_in_prefix": "cf59049e172dd146188124a10e12a2302c89fce299ab994150b3d3fc3cf00c17",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fb25966d5fb0d73390567dbb48607a80f7ae1b5939dd377d6dac938b1ff55d0",
+        "sha256_in_prefix": "5fb25966d5fb0d73390567dbb48607a80f7ae1b5939dd377d6dac938b1ff55d0",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3b60daed3817b785de8314074a09375633c9d0bd0d0b5de0d254f28749d3909",
+        "sha256_in_prefix": "e3b60daed3817b785de8314074a09375633c9d0bd0d0b5de0d254f28749d3909",
+        "size_in_bytes": 2826
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ec663346a8558620ab78f734d0ef2149a0349023adf4a3453d10ec0bf1047ac",
+        "sha256_in_prefix": "2ec663346a8558620ab78f734d0ef2149a0349023adf4a3453d10ec0bf1047ac",
+        "size_in_bytes": 8874
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5eaafde631cd143a771e8b2dc2bc029ed1f3bcccc85c6f1012753677d0c0388",
+        "sha256_in_prefix": "f5eaafde631cd143a771e8b2dc2bc029ed1f3bcccc85c6f1012753677d0c0388",
+        "size_in_bytes": 3965
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac2126d18862352e4a825afa11a76741b94d8f911f1aef2a2c42783f669d13c5",
+        "sha256_in_prefix": "ac2126d18862352e4a825afa11a76741b94d8f911f1aef2a2c42783f669d13c5",
+        "size_in_bytes": 19724
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/tags.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbee01f2fedd991f56b0fc5bb707b378b160e98cb06553fafa4d788b3ab21a73",
+        "sha256_in_prefix": "fbee01f2fedd991f56b0fc5bb707b378b160e98cb06553fafa4d788b3ab21a73",
+        "size_in_bytes": 10773
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfbc44275dee4d802739f511d8c8e0d5a0c958f7267d7494d2018ee0bb5d56ca",
+        "sha256_in_prefix": "bfbc44275dee4d802739f511d8c8e0d5a0c958f7267d7494d2018ee0bb5d56ca",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "73fe0bcbc845a4dfad6d5df77b0a60ce11e909f53c71db0e87ff5f010aed9cf6",
+        "sha256_in_prefix": "73fe0bcbc845a4dfad6d5df77b0a60ce11e909f53c71db0e87ff5f010aed9cf6",
+        "size_in_bytes": 11916
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "520766faa7277927215b6e49aed3082a05317c4101702033e96ac47977aacfda",
+        "sha256_in_prefix": "520766faa7277927215b6e49aed3082a05317c4101702033e96ac47977aacfda",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_structures.py",
+        "path_type": "hardlink",
+        "sha256": "a5577dd17717446c2965107fa9d16e54489b8421e95ff6cbe7362bf7e37499cf",
+        "sha256_in_prefix": "a5577dd17717446c2965107fa9d16e54489b8421e95ff6cbe7362bf7e37499cf",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/markers.py",
+        "path_type": "hardlink",
+        "sha256": "fb719bc41fc98e958f0654e3be8feb08c259d7b8bde95bc78ed677511925c218",
+        "sha256_in_prefix": "fb719bc41fc98e958f0654e3be8feb08c259d7b8bde95bc78ed677511925c218",
+        "size_in_bytes": 8277
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py",
+        "path_type": "hardlink",
+        "sha256": "b32b7712876b63afd4b657de243ba15585dc1031307934adda9cac94b6255f72",
+        "sha256_in_prefix": "b32b7712876b63afd4b657de243ba15585dc1031307934adda9cac94b6255f72",
+        "size_in_bytes": 4757
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py",
+        "path_type": "hardlink",
+        "sha256": "d19cd0a5c527beb43a2e347e99044bcccafc1ba85d46ffa66345527ff6a616d2",
+        "sha256_in_prefix": "d19cd0a5c527beb43a2e347e99044bcccafc1ba85d46ffa66345527ff6a616d2",
+        "size_in_bytes": 27778
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/tags.py",
+        "path_type": "hardlink",
+        "sha256": "10f2d784ee864c3effa225843b55349743e47d1f11ff18afa4c0c75e7b1396db",
+        "sha256_in_prefix": "10f2d784ee864c3effa225843b55349743e47d1f11ff18afa4c0c75e7b1396db",
+        "size_in_bytes": 12933
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/utils.py",
+        "path_type": "hardlink",
+        "sha256": "55a4c2d048bbccedb197d0118969b3d9814b16df3d3eeba12db0255ccc801a6b",
+        "sha256_in_prefix": "55a4c2d048bbccedb197d0118969b3d9814b16df3d3eeba12db0255ccc801a6b",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/packaging/version.py",
+        "path_type": "hardlink",
+        "sha256": "3697709dbf0e1de763ff62fceb2894aac72e8dbef0fe2e609922b53e13801738",
+        "sha256_in_prefix": "3697709dbf0e1de763ff62fceb2894aac72e8dbef0fe2e609922b53e13801738",
+        "size_in_bytes": 11978
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py",
+        "path_type": "hardlink",
+        "sha256": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "sha256_in_prefix": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "size_in_bytes": 232055
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/_vendor/six.py",
+        "path_type": "hardlink",
+        "sha256": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "sha256_in_prefix": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "size_in_bytes": 30098
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/extern/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3fdd3f27b6cbc5162a1060e818a061aa69f0e2bf8b0bcde7104438ec079c9e1",
+        "sha256_in_prefix": "c3fdd3f27b6cbc5162a1060e818a061aa69f0e2bf8b0bcde7104438ec079c9e1",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f9ae0f89da216d4f1d9b9f892eb7eeef67bc3551900417a09a5c266e8d94027",
+        "sha256_in_prefix": "9f9ae0f89da216d4f1d9b9f892eb7eeef67bc3551900417a09a5c266e8d94027",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "98b56b7450a15b7eaf0403c4fd4c7f05b179a8ff2a191ea370b4c2e453a05dd5",
+        "sha256_in_prefix": "98b56b7450a15b7eaf0403c4fd4c7f05b179a8ff2a191ea370b4c2e453a05dd5",
+        "size_in_bytes": 4407
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "b0db5ac86c600e9c21c18d7fa3b9fab862e6d9639c815bd2bc29509d8b789955",
+        "sha256_in_prefix": "b0db5ac86c600e9c21c18d7fa3b9fab862e6d9639c815bd2bc29509d8b789955",
+        "size_in_bytes": 11136
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "98c0505cf62f57ffa27ebc55e461c750feb84faa2f80c245ba9599a075f8825e",
+        "sha256_in_prefix": "98c0505cf62f57ffa27ebc55e461c750feb84faa2f80c245ba9599a075f8825e",
+        "size_in_bytes": 3087
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "71ff29d75a41dedb7f8ef38dc1ccfc64c10f13281ebb3bf2eb5b2a4f8fa80194",
+        "sha256_in_prefix": "71ff29d75a41dedb7f8ef38dc1ccfc64c10f13281ebb3bf2eb5b2a4f8fa80194",
+        "size_in_bytes": 393
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d87517555c00e0f7dfd7181316bdc6b135d729a3da3babe51baa0d27fe2ee138",
+        "sha256_in_prefix": "d87517555c00e0f7dfd7181316bdc6b135d729a3da3babe51baa0d27fe2ee138",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools-49.2.0.post20200714-py3.7.egg-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "31e5c1038387fcc88894785e7192eea0d8d86d03f60ab3287f6c12e6a7ca0cd8",
+        "sha256_in_prefix": "31e5c1038387fcc88894785e7192eea0d8d86d03f60ab3287f6c12e6a7ca0cd8",
+        "size_in_bytes": 7943
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c5e2af88c66b76c1a8f3caff0663db26acd82bea5f2d48bfce5da0f7cbe9f08",
+        "sha256_in_prefix": "4c5e2af88c66b76c1a8f3caff0663db26acd82bea5f2d48bfce5da0f7cbe9f08",
+        "size_in_bytes": 8699
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/_deprecation_warning.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fb22fa4fc6829926c7031bbf24c87748d716c8f4035f6d63ae7f08247945bd3",
+        "sha256_in_prefix": "2fb22fa4fc6829926c7031bbf24c87748d716c8f4035f6d63ae7f08247945bd3",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/_imp.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e13ded5d4d469bda211d1de41f02e69a4741b3db0e6ff2f345108a3400e689c8",
+        "sha256_in_prefix": "e13ded5d4d469bda211d1de41f02e69a4741b3db0e6ff2f345108a3400e689c8",
+        "size_in_bytes": 2041
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/archive_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4f6c8512309063b9523d1ec14187fb44f922f67401118a40949b2d0f2c6aa04",
+        "sha256_in_prefix": "c4f6c8512309063b9523d1ec14187fb44f922f67401118a40949b2d0f2c6aa04",
+        "size_in_bytes": 5107
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/build_meta.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "83ca9a8d74b011003f643e5d34935b3da360dd6383a9a9203353b0726efae783",
+        "sha256_in_prefix": "83ca9a8d74b011003f643e5d34935b3da360dd6383a9a9203353b0726efae783",
+        "size_in_bytes": 8441
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/config.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f640c894fa681f75a124118fc0f5ac87b4853932c7c239fc2cbe4895342b28c5",
+        "sha256_in_prefix": "f640c894fa681f75a124118fc0f5ac87b4853932c7c239fc2cbe4895342b28c5",
+        "size_in_bytes": 19152
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/dep_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa9c0afc2a4bb7494d2ebf219850b950066ccfe2b694b0cf50b6f1dedbaa42ab",
+        "sha256_in_prefix": "fa9c0afc2a4bb7494d2ebf219850b950066ccfe2b694b0cf50b6f1dedbaa42ab",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/depends.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4eab7e4676332ff68d2b7d95438396b3723b10f140a53af13dd581ec918bc12",
+        "sha256_in_prefix": "e4eab7e4676332ff68d2b7d95438396b3723b10f140a53af13dd581ec918bc12",
+        "size_in_bytes": 5129
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/dist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "79cadf69c96707c8bc9c3a296d4f110285ceb5a9dcb7fccb96c54cb3a4d7fec9",
+        "sha256_in_prefix": "79cadf69c96707c8bc9c3a296d4f110285ceb5a9dcb7fccb96c54cb3a4d7fec9",
+        "size_in_bytes": 33047
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/distutils_patch.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "de842f4c659cc6992dbf31efe0a274d1aab0e42aabcc9d499ec9f8d06930a318",
+        "sha256_in_prefix": "de842f4c659cc6992dbf31efe0a274d1aab0e42aabcc9d499ec9f8d06930a318",
+        "size_in_bytes": 1882
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/errors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1de14534f65b75372a03a0cb146cd3d6069ec4ec8ba73841690670790048a613",
+        "sha256_in_prefix": "1de14534f65b75372a03a0cb146cd3d6069ec4ec8ba73841690670790048a613",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/extension.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "81a5eb443590bae5bf77816acde7d7e44a0d98534620619123b7480d2f3e75e0",
+        "sha256_in_prefix": "81a5eb443590bae5bf77816acde7d7e44a0d98534620619123b7480d2f3e75e0",
+        "size_in_bytes": 1930
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/glob.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0fee23e9c21f54d4dd0f69ad70a46078c74d8c91457fb665565b6623b2cbc722",
+        "sha256_in_prefix": "0fee23e9c21f54d4dd0f69ad70a46078c74d8c91457fb665565b6623b2cbc722",
+        "size_in_bytes": 3705
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/installer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "165501a14b3a771928696b6dc9f306503dd4d8cd6517dc721245769f47c018a0",
+        "sha256_in_prefix": "165501a14b3a771928696b6dc9f306503dd4d8cd6517dc721245769f47c018a0",
+        "size_in_bytes": 4025
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/launch.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6eb8f490a2ed6b000dd99baa741c6b03ae0c4e17d60a6e97bd7cc834cc5a0756",
+        "sha256_in_prefix": "6eb8f490a2ed6b000dd99baa741c6b03ae0c4e17d60a6e97bd7cc834cc5a0756",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/lib2to3_ex.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf1e77b009cc94fa9677f8267714aca314e107634ed95baac4e5fb3ad4a29289",
+        "sha256_in_prefix": "bf1e77b009cc94fa9677f8267714aca314e107634ed95baac4e5fb3ad4a29289",
+        "size_in_bytes": 2687
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/monkey.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4254c995d2f2009bc8d4e0b7084b6c3d604443c89dbc92c54c991c5b5406ee92",
+        "sha256_in_prefix": "4254c995d2f2009bc8d4e0b7084b6c3d604443c89dbc92c54c991c5b5406ee92",
+        "size_in_bytes": 4589
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/msvc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c456facb866f9b42d3899f9bc6e15477b7fcba911fc147bdf13f86617aa50ca2",
+        "sha256_in_prefix": "c456facb866f9b42d3899f9bc6e15477b7fcba911fc147bdf13f86617aa50ca2",
+        "size_in_bytes": 43057
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/namespaces.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c44d69b8c0585e3d6fca65f06b1bbf01a7c4fc5e30c09164fd9920dae4a69244",
+        "sha256_in_prefix": "c44d69b8c0585e3d6fca65f06b1bbf01a7c4fc5e30c09164fd9920dae4a69244",
+        "size_in_bytes": 3567
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/package_index.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5216d9b5c997c4f7a94b7927f241ead71383d51c7416f44f78c6902e27722fab",
+        "sha256_in_prefix": "5216d9b5c997c4f7a94b7927f241ead71383d51c7416f44f78c6902e27722fab",
+        "size_in_bytes": 32965
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/py27compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec77757697b828c36008d0a0939187191e38eed7ab25821daeca04fdfa938858",
+        "sha256_in_prefix": "ec77757697b828c36008d0a0939187191e38eed7ab25821daeca04fdfa938858",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/py31compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2378a7611c3e16acf459937c822647d3488dd5d6e3b8240371a7bfcecab71f33",
+        "sha256_in_prefix": "2378a7611c3e16acf459937c822647d3488dd5d6e3b8240371a7bfcecab71f33",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/py33compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d4d3076f857a7068f5781834f24719e2e2ecdc48d853eb6d47013280fe528cd",
+        "sha256_in_prefix": "5d4d3076f857a7068f5781834f24719e2e2ecdc48d853eb6d47013280fe528cd",
+        "size_in_bytes": 1391
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/py34compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "86cd2ec71f8f8b779ca97e648811f2e215dc6150f2e9c600d0955420793025c8",
+        "sha256_in_prefix": "86cd2ec71f8f8b779ca97e648811f2e215dc6150f2e9c600d0955420793025c8",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/sandbox.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0ccecf7fd392be6f304fa31e7e5618f426e9b1b49517f6492f3901a8d31c41b",
+        "sha256_in_prefix": "f0ccecf7fd392be6f304fa31e7e5618f426e9b1b49517f6492f3901a8d31c41b",
+        "size_in_bytes": 15453
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/ssl_support.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b39b9f3e60fb5fa03ead2161b556bb2858336666356b6ddb80279898f482a65",
+        "sha256_in_prefix": "6b39b9f3e60fb5fa03ead2161b556bb2858336666356b6ddb80279898f482a65",
+        "size_in_bytes": 6757
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/unicode_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "edbeb1ad34cf68db4a65474b05b28483bc52c7f28e2df38eb018fe220d7158d6",
+        "sha256_in_prefix": "edbeb1ad34cf68db4a65474b05b28483bc52c7f28e2df38eb018fe220d7158d6",
+        "size_in_bytes": 1124
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c794e664986457689fd22dec1d2c253645d6e82f4d21ccf29197fea7e8184b3a",
+        "sha256_in_prefix": "c794e664986457689fd22dec1d2c253645d6e82f4d21ccf29197fea7e8184b3a",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/wheel.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e2283d511c370b1b0c3359d9372104bafc9c44b1f46b68c36bcc7603673016a",
+        "sha256_in_prefix": "2e2283d511c370b1b0c3359d9372104bafc9c44b1f46b68c36bcc7603673016a",
+        "size_in_bytes": 7168
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/__pycache__/windows_support.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d637f88c369cb229b28f5d99b58fb239dd0df624f17015f0a1f10b149c4864cb",
+        "sha256_in_prefix": "d637f88c369cb229b28f5d99b58fb239dd0df624f17015f0a1f10b149c4864cb",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_deprecation_warning.py",
+        "path_type": "hardlink",
+        "sha256": "8d4f7e76d7efe9c2a6b5024e5cdf273f59a6ee038dc3990a12d88fb5bc276722",
+        "sha256_in_prefix": "8d4f7e76d7efe9c2a6b5024e5cdf273f59a6ee038dc3990a12d88fb5bc276722",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "969400a6147feee8560b67db484a6ce096bd5b86307b337f217fcb244b779215",
+        "sha256_in_prefix": "969400a6147feee8560b67db484a6ce096bd5b86307b337f217fcb244b779215",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "65b75ca8727f32438503c87b6070585744e2e02666ffd9fc327f1e1080ef759e",
+        "sha256_in_prefix": "65b75ca8727f32438503c87b6070585744e2e02666ffd9fc327f1e1080ef759e",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/_msvccompiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2557c668aaee36226f3033307355744e36cfe57c877ee1e0dc485c659a95a8e",
+        "sha256_in_prefix": "e2557c668aaee36226f3033307355744e36cfe57c877ee1e0dc485c659a95a8e",
+        "size_in_bytes": 12694
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/archive_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4ec375492c76b8f736f57e9f48989f9b7cd2eef411eefc871e94d70d5cc4f4c",
+        "sha256_in_prefix": "b4ec375492c76b8f736f57e9f48989f9b7cd2eef411eefc871e94d70d5cc4f4c",
+        "size_in_bytes": 6540
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/bcppcompiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7683e00d91ab2a48725adb54299f17ba101d90db156e3a4be6511ce903ee656",
+        "sha256_in_prefix": "c7683e00d91ab2a48725adb54299f17ba101d90db156e3a4be6511ce903ee656",
+        "size_in_bytes": 6445
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/ccompiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "167a3014ca9c9fe7f8b37080f18caa1f341a366a9579edd778a7e8d9b5884c3d",
+        "sha256_in_prefix": "167a3014ca9c9fe7f8b37080f18caa1f341a366a9579edd778a7e8d9b5884c3d",
+        "size_in_bytes": 33212
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/cmd.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4671c589325adafe6062d7fd159ca5fe38977cfe3721c5e7273a302039fceada",
+        "sha256_in_prefix": "4671c589325adafe6062d7fd159ca5fe38977cfe3721c5e7273a302039fceada",
+        "size_in_bytes": 13911
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/config.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d2c57561e852048699fe085cb3137ebce51d733563be8e5ffbdd19c1bbe6b53",
+        "sha256_in_prefix": "0d2c57561e852048699fe085cb3137ebce51d733563be8e5ffbdd19c1bbe6b53",
+        "size_in_bytes": 3488
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/core.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "86303e55ce9b8dc4b2e58504600b4f7cf9e8e465b38bacb39fb012c9e7154d8d",
+        "sha256_in_prefix": "86303e55ce9b8dc4b2e58504600b4f7cf9e8e465b38bacb39fb012c9e7154d8d",
+        "size_in_bytes": 6613
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/cygwinccompiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa55304c522a7cba8fff13528ba17b5c9b2edfd16b1679e2bf3ff92dea09d801",
+        "sha256_in_prefix": "fa55304c522a7cba8fff13528ba17b5c9b2edfd16b1679e2bf3ff92dea09d801",
+        "size_in_bytes": 8408
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/debug.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cbe1d9404926c437cabbe6b087cc66ccec7e874801ae6856b9d2381afb147b0",
+        "sha256_in_prefix": "3cbe1d9404926c437cabbe6b087cc66ccec7e874801ae6856b9d2381afb147b0",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/dep_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0aa1f3efccf6afcb833b662559cfabda2c6f7f40566c9a4c891403f256a855a3",
+        "sha256_in_prefix": "0aa1f3efccf6afcb833b662559cfabda2c6f7f40566c9a4c891403f256a855a3",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/dir_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebc631c93131da27ba9cbeb3f13bdf38bea3442a0a009ae1ef2303af0fd6c085",
+        "sha256_in_prefix": "ebc631c93131da27ba9cbeb3f13bdf38bea3442a0a009ae1ef2303af0fd6c085",
+        "size_in_bytes": 5821
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/dist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f013cb85222854e1c0747e86fccbf95225a830ec5764cfb462460ef9dbaec549",
+        "sha256_in_prefix": "f013cb85222854e1c0747e86fccbf95225a830ec5764cfb462460ef9dbaec549",
+        "size_in_bytes": 34477
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/errors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0c29ae0e9c0412b740c043358cff0f4418e6f94f756eba589db014e759ad60d",
+        "sha256_in_prefix": "f0c29ae0e9c0412b740c043358cff0f4418e6f94f756eba589db014e759ad60d",
+        "size_in_bytes": 5497
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/extension.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "27eb1c1e17edcb932324912b76d02237941283470c26f80d3b9e53aceff2f5a0",
+        "sha256_in_prefix": "27eb1c1e17edcb932324912b76d02237941283470c26f80d3b9e53aceff2f5a0",
+        "size_in_bytes": 6908
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/fancy_getopt.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f895488bf91449c66f2406fb4a8cbe58d2e09c9ad1aa89883532c356af54f09",
+        "sha256_in_prefix": "3f895488bf91449c66f2406fb4a8cbe58d2e09c9ad1aa89883532c356af54f09",
+        "size_in_bytes": 10620
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/file_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5dafdf2d9faa589d279a57ffccdd96a6bc13f5602e50e1f2bd5c843622ea167",
+        "sha256_in_prefix": "d5dafdf2d9faa589d279a57ffccdd96a6bc13f5602e50e1f2bd5c843622ea167",
+        "size_in_bytes": 5906
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/filelist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "10fca022f52430fdfef31a94aae8035f40397b79063de95ad5ca9f1c7d887e23",
+        "sha256_in_prefix": "10fca022f52430fdfef31a94aae8035f40397b79063de95ad5ca9f1c7d887e23",
+        "size_in_bytes": 9841
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/log.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f581d38a85ecab10d2406f17a3f254c9fd473232a6d64a87d8784fd883fc828",
+        "sha256_in_prefix": "8f581d38a85ecab10d2406f17a3f254c9fd473232a6d64a87d8784fd883fc828",
+        "size_in_bytes": 2322
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/msvc9compiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c94fd2289564e4667e635662e32c68105a6e1d405908d76faae553e078cd9b1",
+        "sha256_in_prefix": "4c94fd2289564e4667e635662e32c68105a6e1d405908d76faae553e078cd9b1",
+        "size_in_bytes": 17353
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/msvccompiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "78bf073a6e622c2ae835e8604481aae2989edd04adefc03a0e00fa25080a9a8d",
+        "sha256_in_prefix": "78bf073a6e622c2ae835e8604481aae2989edd04adefc03a0e00fa25080a9a8d",
+        "size_in_bytes": 14539
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/spawn.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb9ec57c6e2f2ceb6ceaac5952dff55963008ba1457219f0af7d8a9698f75f89",
+        "sha256_in_prefix": "bb9ec57c6e2f2ceb6ceaac5952dff55963008ba1457219f0af7d8a9698f75f89",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/sysconfig.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab6ce0b9db75ab8be6d925378a8a25d17f7b64de9cecad57177741ecfa8f0790",
+        "sha256_in_prefix": "ab6ce0b9db75ab8be6d925378a8a25d17f7b64de9cecad57177741ecfa8f0790",
+        "size_in_bytes": 12333
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/text_file.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "efc98094de8cc40c3db88bab04081fa4630b12d3611851da915a7f1d7100dc95",
+        "sha256_in_prefix": "efc98094de8cc40c3db88bab04081fa4630b12d3611851da915a7f1d7100dc95",
+        "size_in_bytes": 8448
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/unixccompiler.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5603edd20bb66198e1ee6b5ee0384b3a760b3533b8753f9886cc0ed616511abf",
+        "sha256_in_prefix": "5603edd20bb66198e1ee6b5ee0384b3a760b3533b8753f9886cc0ed616511abf",
+        "size_in_bytes": 6543
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3193c0cc2e470d523b9466b5367dc758b1210fec1e267c1795d78c09db8e421",
+        "sha256_in_prefix": "a3193c0cc2e470d523b9466b5367dc758b1210fec1e267c1795d78c09db8e421",
+        "size_in_bytes": 15499
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "58059d0ba6ca88d7fe82ccef402cd6571ab476ed58727731d7da00d505251315",
+        "sha256_in_prefix": "58059d0ba6ca88d7fe82ccef402cd6571ab476ed58727731d7da00d505251315",
+        "size_in_bytes": 7409
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/__pycache__/versionpredicate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d0ed29fabf6e8cf3b694c0cad841398563ee3cf5db0283a0e0287ec87503ffd",
+        "sha256_in_prefix": "0d0ed29fabf6e8cf3b694c0cad841398563ee3cf5db0283a0e0287ec87503ffd",
+        "size_in_bytes": 5106
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/_msvccompiler.py",
+        "path_type": "hardlink",
+        "sha256": "30ce8770a51b7ba848144b855a7ad5f803bafe48f06772c6efdd482b72f48bec",
+        "sha256_in_prefix": "30ce8770a51b7ba848144b855a7ad5f803bafe48f06772c6efdd482b72f48bec",
+        "size_in_bytes": 19907
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/archive_util.py",
+        "path_type": "hardlink",
+        "sha256": "a96fae886c187b14ef2b97be8927a5ff7d43b21c7e0aa4da9cd3caeac9f07fdf",
+        "sha256_in_prefix": "a96fae886c187b14ef2b97be8927a5ff7d43b21c7e0aa4da9cd3caeac9f07fdf",
+        "size_in_bytes": 8572
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/bcppcompiler.py",
+        "path_type": "hardlink",
+        "sha256": "3890d5a425265fa1fcbffee5575ce27d5d5f731f760abd9d862521ebdf3d5092",
+        "sha256_in_prefix": "3890d5a425265fa1fcbffee5575ce27d5d5f731f760abd9d862521ebdf3d5092",
+        "size_in_bytes": 14894
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/ccompiler.py",
+        "path_type": "hardlink",
+        "sha256": "70c7771920ce3f84e6e2717059bed43ab192d3f834dd08461f6e758c79df7412",
+        "sha256_in_prefix": "70c7771920ce3f84e6e2717059bed43ab192d3f834dd08461f6e758c79df7412",
+        "size_in_bytes": 47417
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/cmd.py",
+        "path_type": "hardlink",
+        "sha256": "79ca3a2c0194b686cbb8f69fba19a02a09304512ff598f0a27861e0c21e9725b",
+        "sha256_in_prefix": "79ca3a2c0194b686cbb8f69fba19a02a09304512ff598f0a27861e0c21e9725b",
+        "size_in_bytes": 18079
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9303eae5343973788f9cb1b5875c58c60fcb8e62a00b31fc963a14f8f670ba8",
+        "sha256_in_prefix": "d9303eae5343973788f9cb1b5875c58c60fcb8e62a00b31fc963a14f8f670ba8",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c11b50ed86d3cedea0c05f895d47de14e5ffb91d621a4ec28b01287592a5c054",
+        "sha256_in_prefix": "c11b50ed86d3cedea0c05f895d47de14e5ffb91d621a4ec28b01287592a5c054",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "387be5ae36147e45b98c6054597a8a708b80e792a86ba0137eed15521774eb71",
+        "sha256_in_prefix": "387be5ae36147e45b98c6054597a8a708b80e792a86ba0137eed15521774eb71",
+        "size_in_bytes": 3657
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_dumb.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4afb21589e502431bb627dc87aaf45f56e2239a479225583d26442f66d6b6280",
+        "sha256_in_prefix": "4afb21589e502431bb627dc87aaf45f56e2239a479225583d26442f66d6b6280",
+        "size_in_bytes": 3572
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_msi.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b550c77e322f1fc0eb9808757fb151caea555e4549e98362d27f53f154431ab0",
+        "sha256_in_prefix": "b550c77e322f1fc0eb9808757fb151caea555e4549e98362d27f53f154431ab0",
+        "size_in_bytes": 19768
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_rpm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "395931314faf50a50ffa4f84bebb053592d33c590a0fe17e3293efdbbd4d5502",
+        "sha256_in_prefix": "395931314faf50a50ffa4f84bebb053592d33c590a0fe17e3293efdbbd4d5502",
+        "size_in_bytes": 12383
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/bdist_wininst.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f8e18d52f21187b9a8847637da8cb24d905b65d9cf38648c6c9b580c60db748",
+        "sha256_in_prefix": "3f8e18d52f21187b9a8847637da8cb24d905b65d9cf38648c6c9b580c60db748",
+        "size_in_bytes": 8442
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "69b18a1cc47050de98921df2973ba201f1029d06f10946438078077bd60ee776",
+        "sha256_in_prefix": "69b18a1cc47050de98921df2973ba201f1029d06f10946438078077bd60ee776",
+        "size_in_bytes": 3846
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_clib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5e7a868e0086c9b3f353eb581181739297be44ea4a748b9486976c1b7237f49",
+        "sha256_in_prefix": "f5e7a868e0086c9b3f353eb581181739297be44ea4a748b9486976c1b7237f49",
+        "size_in_bytes": 4888
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_ext.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d90d01ca6be4b037c180fd90c1037ca5b36e87d9857edf35d9d713200846f98",
+        "sha256_in_prefix": "5d90d01ca6be4b037c180fd90c1037ca5b36e87d9857edf35d9d713200846f98",
+        "size_in_bytes": 16074
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_py.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "22c442b445cfdf64cf5e05893a2d581dee46c1891ce5374dba52e29f87c95b7e",
+        "sha256_in_prefix": "22c442b445cfdf64cf5e05893a2d581dee46c1891ce5374dba52e29f87c95b7e",
+        "size_in_bytes": 10412
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/build_scripts.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "18357cd9089dbd343c15d6308cd46101a8c9eba4798fae5b1d067438f4dcb118",
+        "sha256_in_prefix": "18357cd9089dbd343c15d6308cd46101a8c9eba4798fae5b1d067438f4dcb118",
+        "size_in_bytes": 4293
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/check.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cb27698a880ffbdd00207b47b303d27967cbacb935aeaeac60ac3fcf5cf940b",
+        "sha256_in_prefix": "9cb27698a880ffbdd00207b47b303d27967cbacb935aeaeac60ac3fcf5cf940b",
+        "size_in_bytes": 4876
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/clean.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bb19758b39bee5ce09fee4e941fa52ea7d62f5db64018d25657bc9c0dc929ef",
+        "sha256_in_prefix": "1bb19758b39bee5ce09fee4e941fa52ea7d62f5db64018d25657bc9c0dc929ef",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/config.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd57ad53e88c85d84c9a360e876b7d3615427dbd84aca14dfa83a1340f2634b5",
+        "sha256_in_prefix": "bd57ad53e88c85d84c9a360e876b7d3615427dbd84aca14dfa83a1340f2634b5",
+        "size_in_bytes": 10194
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba0091ba37e511f49c7d4e34622f980e0c91b9ef0ad08903dfdea47237f20a86",
+        "sha256_in_prefix": "ba0091ba37e511f49c7d4e34622f980e0c91b9ef0ad08903dfdea47237f20a86",
+        "size_in_bytes": 13832
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_data.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e15e62deb6c70666f7cc03cd9636fb1c43881a47a66bc6b753da2596c46336a9",
+        "sha256_in_prefix": "e15e62deb6c70666f7cc03cd9636fb1c43881a47a66bc6b753da2596c46336a9",
+        "size_in_bytes": 2288
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_egg_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "28c811c330406edfdb597c22de7ac9e6b397244219e9c1cf83b85f81a12169a4",
+        "sha256_in_prefix": "28c811c330406edfdb597c22de7ac9e6b397244219e9c1cf83b85f81a12169a4",
+        "size_in_bytes": 2986
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_headers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "90d37b04c2e365fb1a019f9836142c99b2406d8c5cd53fcd633c086626a028f7",
+        "sha256_in_prefix": "90d37b04c2e365fb1a019f9836142c99b2406d8c5cd53fcd633c086626a028f7",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_lib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "95a0f94b1daaed6c2bd32ff9b0b7bd50a9752ef4f668169fe57ea3cf6a1002c8",
+        "sha256_in_prefix": "95a0f94b1daaed6c2bd32ff9b0b7bd50a9752ef4f668169fe57ea3cf6a1002c8",
+        "size_in_bytes": 5081
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/install_scripts.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab2abe1afcaf86a8fedcdaea114f2c4260fce3a4a30739f040e461bb8c3ce81a",
+        "sha256_in_prefix": "ab2abe1afcaf86a8fedcdaea114f2c4260fce3a4a30739f040e461bb8c3ce81a",
+        "size_in_bytes": 2145
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/register.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce98e73970c0b3b29a61521fb62414b77ae9cceceeec48707926395f51b1fa2c",
+        "sha256_in_prefix": "ce98e73970c0b3b29a61521fb62414b77ae9cceceeec48707926395f51b1fa2c",
+        "size_in_bytes": 8480
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/sdist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c53eb810bdc4f7e6c206b966ee7946bc0e93560e0989e80a6ae3aa23e959fb0e",
+        "sha256_in_prefix": "c53eb810bdc4f7e6c206b966ee7946bc0e93560e0989e80a6ae3aa23e959fb0e",
+        "size_in_bytes": 14508
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/__pycache__/upload.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e08589055e72a5c18e097d409d4f63b80a03af90c358f89c3c32233afd08a09f",
+        "sha256_in_prefix": "e08589055e72a5c18e097d409d4f63b80a03af90c358f89c3c32233afd08a09f",
+        "size_in_bytes": 5162
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/bdist.py",
+        "path_type": "hardlink",
+        "sha256": "db3e1eb9d465fe7ee6de51bd95e2f4218a9eb386ec9bc7347f17d9ba269f8cc8",
+        "sha256_in_prefix": "db3e1eb9d465fe7ee6de51bd95e2f4218a9eb386ec9bc7347f17d9ba269f8cc8",
+        "size_in_bytes": 5562
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_dumb.py",
+        "path_type": "hardlink",
+        "sha256": "053babf63708a69c8fecf89abe37ec93b623125aafc5e60eda7a54c8f3ce7a47",
+        "sha256_in_prefix": "053babf63708a69c8fecf89abe37ec93b623125aafc5e60eda7a54c8f3ce7a47",
+        "size_in_bytes": 4913
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_msi.py",
+        "path_type": "hardlink",
+        "sha256": "11515060dfd7f84c5e78ff2099d57d25c20db2e506b0b254cfd69f314d11b7c7",
+        "sha256_in_prefix": "11515060dfd7f84c5e78ff2099d57d25c20db2e506b0b254cfd69f314d11b7c7",
+        "size_in_bytes": 35579
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_rpm.py",
+        "path_type": "hardlink",
+        "sha256": "8233b0db61a10d26dcab46ddab6e5c4dbfa7e875969b46d284b41a77f9a42789",
+        "sha256_in_prefix": "8233b0db61a10d26dcab46ddab6e5c4dbfa7e875969b46d284b41a77f9a42789",
+        "size_in_bytes": 21537
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/bdist_wininst.py",
+        "path_type": "hardlink",
+        "sha256": "88695a23e55f1251ce9de79ccca1d69d23796b5d3eec831c25a5ee47599d4b77",
+        "sha256_in_prefix": "88695a23e55f1251ce9de79ccca1d69d23796b5d3eec831c25a5ee47599d4b77",
+        "size_in_bytes": 16030
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/build.py",
+        "path_type": "hardlink",
+        "sha256": "d753724765005336a5ae44d9da98740401c55850b68ed4ac37b808685f8d0b4f",
+        "sha256_in_prefix": "d753724765005336a5ae44d9da98740401c55850b68ed4ac37b808685f8d0b4f",
+        "size_in_bytes": 5767
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/build_clib.py",
+        "path_type": "hardlink",
+        "sha256": "6e05531e1dbc78b400d86930ebc6a602977f8fba90057e0c4c8fb34ef00afc9e",
+        "sha256_in_prefix": "6e05531e1dbc78b400d86930ebc6a602977f8fba90057e0c4c8fb34ef00afc9e",
+        "size_in_bytes": 8022
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/build_ext.py",
+        "path_type": "hardlink",
+        "sha256": "30c24f0b11e57fdae05248b39f82a3abdbd878011fc72a9fabc5ec4c4f84a563",
+        "sha256_in_prefix": "30c24f0b11e57fdae05248b39f82a3abdbd878011fc72a9fabc5ec4c4f84a563",
+        "size_in_bytes": 31635
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/build_py.py",
+        "path_type": "hardlink",
+        "sha256": "4bf365c3885913c3e7220a97e4e14c766b7e19298e84f410e1fda3af5b819e85",
+        "sha256_in_prefix": "4bf365c3885913c3e7220a97e4e14c766b7e19298e84f410e1fda3af5b819e85",
+        "size_in_bytes": 17190
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/build_scripts.py",
+        "path_type": "hardlink",
+        "sha256": "68ac9c2493f1dcb7d9d5cbd981225ac670f62e7bd1339589fbcc64a5d81c2ec2",
+        "sha256_in_prefix": "68ac9c2493f1dcb7d9d5cbd981225ac670f62e7bd1339589fbcc64a5d81c2ec2",
+        "size_in_bytes": 6232
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/check.py",
+        "path_type": "hardlink",
+        "sha256": "e6a0ed23be5c719837b0022d41679a22ef32dc5477d783b8aebf529b3e07b04a",
+        "sha256_in_prefix": "e6a0ed23be5c719837b0022d41679a22ef32dc5477d783b8aebf529b3e07b04a",
+        "size_in_bytes": 5637
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/clean.py",
+        "path_type": "hardlink",
+        "sha256": "d930ade3baeee2165933445f55f5188f96dba6272918b3f8421c398c1b6fa7d9",
+        "sha256_in_prefix": "d930ade3baeee2165933445f55f5188f96dba6272918b3f8421c398c1b6fa7d9",
+        "size_in_bytes": 2776
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/config.py",
+        "path_type": "hardlink",
+        "sha256": "d9a4e3c30dcfc23301f3e6626c27b83fb07ea86d61335827feb257632c51cfa7",
+        "sha256_in_prefix": "d9a4e3c30dcfc23301f3e6626c27b83fb07ea86d61335827feb257632c51cfa7",
+        "size_in_bytes": 13117
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/install.py",
+        "path_type": "hardlink",
+        "sha256": "a0e336ac3ee5fd28250113550e68999fcbba0c07e2757445ff2139412df6f01e",
+        "sha256_in_prefix": "a0e336ac3ee5fd28250113550e68999fcbba0c07e2757445ff2139412df6f01e",
+        "size_in_bytes": 27482
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/install_data.py",
+        "path_type": "hardlink",
+        "sha256": "62118e0308778093ea17b7a6e57034ae6a51e36cf56cb87cd28a049730f252f9",
+        "sha256_in_prefix": "62118e0308778093ea17b7a6e57034ae6a51e36cf56cb87cd28a049730f252f9",
+        "size_in_bytes": 2822
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/install_egg_info.py",
+        "path_type": "hardlink",
+        "sha256": "d245b496254c79a7648d7d197117cca6d2857a7d3b1b0ea0cb0d551d3e4a2307",
+        "sha256_in_prefix": "d245b496254c79a7648d7d197117cca6d2857a7d3b1b0ea0cb0d551d3e4a2307",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/install_headers.py",
+        "path_type": "hardlink",
+        "sha256": "5d0ea27646c80dfaf59635c23b39ee55432f385a47067e9c2b45b3f6020cd9be",
+        "sha256_in_prefix": "5d0ea27646c80dfaf59635c23b39ee55432f385a47067e9c2b45b3f6020cd9be",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/install_lib.py",
+        "path_type": "hardlink",
+        "sha256": "f40a1f47e30ef6502d8f0c2eba40a9b5ea4e68910a3195b65478b2479854ec70",
+        "sha256_in_prefix": "f40a1f47e30ef6502d8f0c2eba40a9b5ea4e68910a3195b65478b2479854ec70",
+        "size_in_bytes": 8397
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/install_scripts.py",
+        "path_type": "hardlink",
+        "sha256": "fc22d4790c06251718da48a4edaccf327e4876d0c2ae359d52f675921946e9c9",
+        "sha256_in_prefix": "fc22d4790c06251718da48a4edaccf327e4876d0c2ae359d52f675921946e9c9",
+        "size_in_bytes": 2017
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/register.py",
+        "path_type": "hardlink",
+        "sha256": "da36aaf7debcaedda9b91543071d476cd897bf6eee3a4f22744ff894f7ffdd53",
+        "sha256_in_prefix": "da36aaf7debcaedda9b91543071d476cd897bf6eee3a4f22744ff894f7ffdd53",
+        "size_in_bytes": 11712
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/sdist.py",
+        "path_type": "hardlink",
+        "sha256": "aa8b498c03b3ca1263ab6fa80c89a3345aceb5a4a778414325307eb04935c275",
+        "sha256_in_prefix": "aa8b498c03b3ca1263ab6fa80c89a3345aceb5a4a778414325307eb04935c275",
+        "size_in_bytes": 19005
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/command/upload.py",
+        "path_type": "hardlink",
+        "sha256": "04b3b5c3b79202ab028c22d7b5ffc24554a3c05d569b2381c8654635d710f286",
+        "sha256_in_prefix": "04b3b5c3b79202ab028c22d7b5ffc24554a3c05d569b2381c8654635d710f286",
+        "size_in_bytes": 7597
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/config.py",
+        "path_type": "hardlink",
+        "sha256": "76d1e06e5c7d2617f2acac75f89ec9971c3f7fbb3c65b3c54228b65163136696",
+        "sha256_in_prefix": "76d1e06e5c7d2617f2acac75f89ec9971c3f7fbb3c65b3c54228b65163136696",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/core.py",
+        "path_type": "hardlink",
+        "sha256": "8db74e92938ad3dc62fb9eaf861c2f9f77d87612dbe4324ef2adcad5f9d0cf44",
+        "sha256_in_prefix": "8db74e92938ad3dc62fb9eaf861c2f9f77d87612dbe4324ef2adcad5f9d0cf44",
+        "size_in_bytes": 8876
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/cygwinccompiler.py",
+        "path_type": "hardlink",
+        "sha256": "f54e0902eb14ce5006265d18e674e83e443795dcec780b62c9ee37e26c09d28c",
+        "sha256_in_prefix": "f54e0902eb14ce5006265d18e674e83e443795dcec780b62c9ee37e26c09d28c",
+        "size_in_bytes": 16380
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/debug.py",
+        "path_type": "hardlink",
+        "sha256": "37a32b4c0a8aea5f52564ead5b0791d74f0f33c3a5eea3657f257e9c770b86c6",
+        "sha256_in_prefix": "37a32b4c0a8aea5f52564ead5b0791d74f0f33c3a5eea3657f257e9c770b86c6",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/dep_util.py",
+        "path_type": "hardlink",
+        "sha256": "1ae47d230fe3cd9464c9e989e475fcac1ff0446c642017019b5aa1e78afbce19",
+        "sha256_in_prefix": "1ae47d230fe3cd9464c9e989e475fcac1ff0446c642017019b5aa1e78afbce19",
+        "size_in_bytes": 3491
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/dir_util.py",
+        "path_type": "hardlink",
+        "sha256": "5308413944dc57ae464f071ee123ee4d747c67cab72d811c9adb6a7066f46d8a",
+        "sha256_in_prefix": "5308413944dc57ae464f071ee123ee4d747c67cab72d811c9adb6a7066f46d8a",
+        "size_in_bytes": 7778
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/dist.py",
+        "path_type": "hardlink",
+        "sha256": "062b9fe9c6bcba215f31271116c6142ad6f99de30fb712b146d5e7e74ff57f75",
+        "sha256_in_prefix": "062b9fe9c6bcba215f31271116c6142ad6f99de30fb712b146d5e7e74ff57f75",
+        "size_in_bytes": 50421
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/errors.py",
+        "path_type": "hardlink",
+        "sha256": "62bead29919dcc1a0d8b9def06d8aad1427ffd7d390a6c5275026a3966b0e926",
+        "sha256_in_prefix": "62bead29919dcc1a0d8b9def06d8aad1427ffd7d390a6c5275026a3966b0e926",
+        "size_in_bytes": 3577
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/extension.py",
+        "path_type": "hardlink",
+        "sha256": "6d36f74340a87af18a62fe5d5f596cfbe2e7f2d941d3e5043ac8bd070ce567eb",
+        "sha256_in_prefix": "6d36f74340a87af18a62fe5d5f596cfbe2e7f2d941d3e5043ac8bd070ce567eb",
+        "size_in_bytes": 10515
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/fancy_getopt.py",
+        "path_type": "hardlink",
+        "sha256": "38fc69d82c478b5629fddd43f09c56e147aaf5f0bbd6d7a040569a7e1e7c1865",
+        "sha256_in_prefix": "38fc69d82c478b5629fddd43f09c56e147aaf5f0bbd6d7a040569a7e1e7c1865",
+        "size_in_bytes": 17784
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/file_util.py",
+        "path_type": "hardlink",
+        "sha256": "d2152a7c8b4dff1d83562851d0c1dd03828231508e3bc568072685a7f6ba3038",
+        "sha256_in_prefix": "d2152a7c8b4dff1d83562851d0c1dd03828231508e3bc568072685a7f6ba3038",
+        "size_in_bytes": 8148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/filelist.py",
+        "path_type": "hardlink",
+        "sha256": "f1b471873a7616c6a81d3ed3b8a0f842372e87f07d3b0ff14edfe1b5926f3764",
+        "sha256_in_prefix": "f1b471873a7616c6a81d3ed3b8a0f842372e87f07d3b0ff14edfe1b5926f3764",
+        "size_in_bytes": 12832
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/log.py",
+        "path_type": "hardlink",
+        "sha256": "8560667540b62bddbb41c56fdd110c5b71cc3dc97171c3d09e0c4b4ae517425d",
+        "sha256_in_prefix": "8560667540b62bddbb41c56fdd110c5b71cc3dc97171c3d09e0c4b4ae517425d",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/msvc9compiler.py",
+        "path_type": "hardlink",
+        "sha256": "bafd1301fa16af11013902fe676bb0b39838017a133da85410cbaae852e40986",
+        "sha256_in_prefix": "bafd1301fa16af11013902fe676bb0b39838017a133da85410cbaae852e40986",
+        "size_in_bytes": 30453
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/msvccompiler.py",
+        "path_type": "hardlink",
+        "sha256": "658b27520202e2d653d969096d39135325520807369c533d0d5288b887cf054d",
+        "sha256_in_prefix": "658b27520202e2d653d969096d39135325520807369c533d0d5288b887cf054d",
+        "size_in_bytes": 23540
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/spawn.py",
+        "path_type": "hardlink",
+        "sha256": "5c1994ab38715df6b2fc9135f1191a6a51dff64822ecdbd77813d6f417d3aa6c",
+        "sha256_in_prefix": "5c1994ab38715df6b2fc9135f1191a6a51dff64822ecdbd77813d6f417d3aa6c",
+        "size_in_bytes": 4408
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/sysconfig.py",
+        "path_type": "hardlink",
+        "sha256": "e73e79314ee05de71e2ff1bd14ae9ec7ed8ebdd7885c945925a7ebb6d84971f5",
+        "sha256_in_prefix": "e73e79314ee05de71e2ff1bd14ae9ec7ed8ebdd7885c945925a7ebb6d84971f5",
+        "size_in_bytes": 21349
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/text_file.py",
+        "path_type": "hardlink",
+        "sha256": "3ecb8025e59d289a0b495ffa37a229079fb43daf382b32d4b9c24c1516b3c372",
+        "sha256_in_prefix": "3ecb8025e59d289a0b495ffa37a229079fb43daf382b32d4b9c24c1516b3c372",
+        "size_in_bytes": 12483
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/unixccompiler.py",
+        "path_type": "hardlink",
+        "sha256": "13ae5e7428582e81d8f308b83b116eff02adde125edc6c9217abf9d46fd9ccbd",
+        "sha256_in_prefix": "13ae5e7428582e81d8f308b83b116eff02adde125edc6c9217abf9d46fd9ccbd",
+        "size_in_bytes": 14696
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/util.py",
+        "path_type": "hardlink",
+        "sha256": "67e16da6f0a8d6cccd92cb08fa2b7eb96840df9f7de971dcb6d2d9894cdcd7f6",
+        "sha256_in_prefix": "67e16da6f0a8d6cccd92cb08fa2b7eb96840df9f7de971dcb6d2d9894cdcd7f6",
+        "size_in_bytes": 20913
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/version.py",
+        "path_type": "hardlink",
+        "sha256": "f0da203fa34f3d0a69dc450c65c4fd73310789af9e86a3e8f2ca68fdeec08145",
+        "sha256_in_prefix": "f0da203fa34f3d0a69dc450c65c4fd73310789af9e86a3e8f2ca68fdeec08145",
+        "size_in_bytes": 12514
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_distutils/versionpredicate.py",
+        "path_type": "hardlink",
+        "sha256": "671a4403e4d0bfcf2651673a85eb543b8a92a80dac6bb8a98d9dd010ae5ebc39",
+        "sha256_in_prefix": "671a4403e4d0bfcf2651673a85eb543b8a92a80dac6bb8a98d9dd010ae5ebc39",
+        "size_in_bytes": 5133
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_imp.py",
+        "path_type": "hardlink",
+        "sha256": "431d0b27310169693fe8f7c809a989b5f04ddab8792bdb09ab5c17bed656fa67",
+        "sha256_in_prefix": "431d0b27310169693fe8f7c809a989b5f04ddab8792bdb09ab5c17bed656fa67",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "00d64521fce86eaebd69935995361b9d7dc1247b108a04442a0aea76591504fd",
+        "sha256_in_prefix": "00d64521fce86eaebd69935995361b9d7dc1247b108a04442a0aea76591504fd",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/ordered_set.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "03da1bc8f81638b1148a82c3c1521459df45d17c316aa893abd83a828394b31d",
+        "sha256_in_prefix": "03da1bc8f81638b1148a82c3c1521459df45d17c316aa893abd83a828394b31d",
+        "size_in_bytes": 16365
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/pyparsing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f87bcd94055b3dc0c99bbd9c26462f656a7e70ca0f74ab783464d07dbe2ebef6",
+        "sha256_in_prefix": "f87bcd94055b3dc0c99bbd9c26462f656a7e70ca0f74ab783464d07dbe2ebef6",
+        "size_in_bytes": 202988
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/__pycache__/six.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a5db6de4ede96416f4aae08b65b084a8b71645749d25347ea7c6ae7d226b39e",
+        "sha256_in_prefix": "4a5db6de4ede96416f4aae08b65b084a8b71645749d25347ea7c6ae7d226b39e",
+        "size_in_bytes": 24346
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/ordered_set.py",
+        "path_type": "hardlink",
+        "sha256": "75b68272cdbb77237d827316185e6703f06b567e90f8dae329826957dfdf801b",
+        "sha256_in_prefix": "75b68272cdbb77237d827316185e6703f06b567e90f8dae329826957dfdf801b",
+        "size_in_bytes": 15130
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "0a9b8c4b287557b69dc3c40c8d62a46372ed76a4549115f832027a9c5e2cb4cd",
+        "sha256_in_prefix": "0a9b8c4b287557b69dc3c40c8d62a46372ed76a4549115f832027a9c5e2cb4cd",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9e9dba795e045f8c18ec23df9b9f4d078c77f94c7db53c330e2a4256f31c3ec",
+        "sha256_in_prefix": "e9e9dba795e045f8c18ec23df9b9f4d078c77f94c7db53c330e2a4256f31c3ec",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/__about__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "86849aa9b604f0bba320f2fd6a5658684fde04339d5a3bc193c4e455346571fc",
+        "sha256_in_prefix": "86849aa9b604f0bba320f2fd6a5658684fde04339d5a3bc193c4e455346571fc",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ba66bb3fb032287f077d58a5dac2cdc8590243b4870fbb22e79a807b2b5f611",
+        "sha256_in_prefix": "2ba66bb3fb032287f077d58a5dac2cdc8590243b4870fbb22e79a807b2b5f611",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6ef9e7946edb3e17761bdc2a0f889ed985e005d8f763a5a7cdaad9ce28cb4fb",
+        "sha256_in_prefix": "b6ef9e7946edb3e17761bdc2a0f889ed985e005d8f763a5a7cdaad9ce28cb4fb",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/_structures.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "06306b467cffe138ebd7f5bb3b755fe51b49a9ad43ceb6abff93ef6b30f2d47a",
+        "sha256_in_prefix": "06306b467cffe138ebd7f5bb3b755fe51b49a9ad43ceb6abff93ef6b30f2d47a",
+        "size_in_bytes": 2823
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/markers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f0df63da7a4dfe8f20fe5a64794030982a89340821cd2f393cb1a1c5605ce47",
+        "sha256_in_prefix": "2f0df63da7a4dfe8f20fe5a64794030982a89340821cd2f393cb1a1c5605ce47",
+        "size_in_bytes": 8868
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/requirements.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef534f3c5740c173552b4dea49a8efce049403ebed63752b7024c8a73923ae4e",
+        "sha256_in_prefix": "ef534f3c5740c173552b4dea49a8efce049403ebed63752b7024c8a73923ae4e",
+        "size_in_bytes": 3956
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/specifiers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "34826169523c169c748893870fe1583d22809dc8dc7045c8a1ead2c28dbf3165",
+        "sha256_in_prefix": "34826169523c169c748893870fe1583d22809dc8dc7045c8a1ead2c28dbf3165",
+        "size_in_bytes": 19721
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/tags.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fb9cd933d90acc757ab08c8d4d62a70973364f65bb976267e962abfcbd182e1",
+        "sha256_in_prefix": "4fb9cd933d90acc757ab08c8d4d62a70973364f65bb976267e962abfcbd182e1",
+        "size_in_bytes": 10770
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "10dc609eb3bbe336ebdef9460098be64e93d16860fd0da49b2f31e6c94edd714",
+        "sha256_in_prefix": "10dc609eb3bbe336ebdef9460098be64e93d16860fd0da49b2f31e6c94edd714",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fcabd6f9abb90a4eea6dcd370f7f733390ef5e06c9c007fe5e6db744fb6825a",
+        "sha256_in_prefix": "6fcabd6f9abb90a4eea6dcd370f7f733390ef5e06c9c007fe5e6db744fb6825a",
+        "size_in_bytes": 11913
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "520766faa7277927215b6e49aed3082a05317c4101702033e96ac47977aacfda",
+        "sha256_in_prefix": "520766faa7277927215b6e49aed3082a05317c4101702033e96ac47977aacfda",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/_structures.py",
+        "path_type": "hardlink",
+        "sha256": "a5577dd17717446c2965107fa9d16e54489b8421e95ff6cbe7362bf7e37499cf",
+        "sha256_in_prefix": "a5577dd17717446c2965107fa9d16e54489b8421e95ff6cbe7362bf7e37499cf",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/markers.py",
+        "path_type": "hardlink",
+        "sha256": "fa678597d16bf55f2b17945dbb381eb6de441caf70058454aacb00576a63d25c",
+        "sha256_in_prefix": "fa678597d16bf55f2b17945dbb381eb6de441caf70058454aacb00576a63d25c",
+        "size_in_bytes": 8268
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/requirements.py",
+        "path_type": "hardlink",
+        "sha256": "dddc0825e92df114460946e0c57f2b79e01b8266588dbd3070246d987eb79312",
+        "sha256_in_prefix": "dddc0825e92df114460946e0c57f2b79e01b8266588dbd3070246d987eb79312",
+        "size_in_bytes": 4742
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/specifiers.py",
+        "path_type": "hardlink",
+        "sha256": "d19cd0a5c527beb43a2e347e99044bcccafc1ba85d46ffa66345527ff6a616d2",
+        "sha256_in_prefix": "d19cd0a5c527beb43a2e347e99044bcccafc1ba85d46ffa66345527ff6a616d2",
+        "size_in_bytes": 27778
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/tags.py",
+        "path_type": "hardlink",
+        "sha256": "10f2d784ee864c3effa225843b55349743e47d1f11ff18afa4c0c75e7b1396db",
+        "sha256_in_prefix": "10f2d784ee864c3effa225843b55349743e47d1f11ff18afa4c0c75e7b1396db",
+        "size_in_bytes": 12933
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/utils.py",
+        "path_type": "hardlink",
+        "sha256": "55a4c2d048bbccedb197d0118969b3d9814b16df3d3eeba12db0255ccc801a6b",
+        "sha256_in_prefix": "55a4c2d048bbccedb197d0118969b3d9814b16df3d3eeba12db0255ccc801a6b",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/packaging/version.py",
+        "path_type": "hardlink",
+        "sha256": "3697709dbf0e1de763ff62fceb2894aac72e8dbef0fe2e609922b53e13801738",
+        "sha256_in_prefix": "3697709dbf0e1de763ff62fceb2894aac72e8dbef0fe2e609922b53e13801738",
+        "size_in_bytes": 11978
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py",
+        "path_type": "hardlink",
+        "sha256": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "sha256_in_prefix": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "size_in_bytes": 232055
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/_vendor/six.py",
+        "path_type": "hardlink",
+        "sha256": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "sha256_in_prefix": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "size_in_bytes": 30098
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/archive_util.py",
+        "path_type": "hardlink",
+        "sha256": "175f97ad02537571d13d1034f64c4f5b09bd67632cd6513f21064a1bf259eeb3",
+        "sha256_in_prefix": "175f97ad02537571d13d1034f64c4f5b09bd67632cd6513f21064a1bf259eeb3",
+        "size_in_bytes": 6638
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/build_meta.py",
+        "path_type": "hardlink",
+        "sha256": "a85c6b2c0c2028f4b74f1122f0d35b1717c4bdbd7dda9cd2800452f27659fc49",
+        "sha256_in_prefix": "a85c6b2c0c2028f4b74f1122f0d35b1717c4bdbd7dda9cd2800452f27659fc49",
+        "size_in_bytes": 9917
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/cli-32.exe",
+        "path_type": "hardlink",
+        "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "sha256_in_prefix": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/cli-64.exe",
+        "path_type": "hardlink",
+        "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "sha256_in_prefix": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "size_in_bytes": 74752
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/cli.exe",
+        "path_type": "hardlink",
+        "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "sha256_in_prefix": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "40202e03dc219eaf019e87346c1692e8bc3f28050ed0388761941710c367e618",
+        "sha256_in_prefix": "40202e03dc219eaf019e87346c1692e8bc3f28050ed0388761941710c367e618",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a04479930d380fbfc5e0831402250deaa5d72fb9ff77ff23d47d7381ac61b16",
+        "sha256_in_prefix": "1a04479930d380fbfc5e0831402250deaa5d72fb9ff77ff23d47d7381ac61b16",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/alias.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d147f35b7bc2a12eceb9ff142ccf1cc3a7470505f1bad8507f08892adb95b41e",
+        "sha256_in_prefix": "d147f35b7bc2a12eceb9ff142ccf1cc3a7470505f1bad8507f08892adb95b41e",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_egg.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff127311dd7de5f38345dc6efbd9efea372e44e7f84b80c9eeb49c744b2ecd2e",
+        "sha256_in_prefix": "ff127311dd7de5f38345dc6efbd9efea372e44e7f84b80c9eeb49c744b2ecd2e",
+        "size_in_bytes": 14390
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_rpm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "db846c6677c61f57f712a4c8fb7ff67a4dfeef2d0e77f9f2b66bca27f8272c40",
+        "sha256_in_prefix": "db846c6677c61f57f712a4c8fb7ff67a4dfeef2d0e77f9f2b66bca27f8272c40",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "584c9d5d54d5db7a648d8357fe7b0d906d00f3d1db0d167987af993b084c6911",
+        "sha256_in_prefix": "584c9d5d54d5db7a648d8357fe7b0d906d00f3d1db0d167987af993b084c6911",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/build_clib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a63b8594e0141c40ffeb9c9cd5cd0cf51cb9138230dc66541b9e9b516f3ed01",
+        "sha256_in_prefix": "4a63b8594e0141c40ffeb9c9cd5cd0cf51cb9138230dc66541b9e9b516f3ed01",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/build_ext.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "01dfc483772b03680981ca41a05e5feb02137cc34522d35c4fced8eab66837cd",
+        "sha256_in_prefix": "01dfc483772b03680981ca41a05e5feb02137cc34522d35c4fced8eab66837cd",
+        "size_in_bytes": 9813
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/build_py.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d51b018d2d7a6d4f15b2173a1068445170b12f1d300acadf7b6947982de6bd8f",
+        "sha256_in_prefix": "d51b018d2d7a6d4f15b2173a1068445170b12f1d300acadf7b6947982de6bd8f",
+        "size_in_bytes": 8734
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/develop.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5356178a55fd9897fb961915ef95347102c5866517346275c454569d6dbcd378",
+        "sha256_in_prefix": "5356178a55fd9897fb961915ef95347102c5866517346275c454569d6dbcd378",
+        "size_in_bytes": 6392
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/dist_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f36ca0f6e6c79917a62e2c7e8b704e8a85004b527e8ba2b5a1b7e9b79bc08ae2",
+        "sha256_in_prefix": "f36ca0f6e6c79917a62e2c7e8b704e8a85004b527e8ba2b5a1b7e9b79bc08ae2",
+        "size_in_bytes": 1334
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/easy_install.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "274263c79cd538bfbc97ca599769a9119477fe61a93c9d9abcd913b7aadaa8e6",
+        "sha256_in_prefix": "274263c79cd538bfbc97ca599769a9119477fe61a93c9d9abcd913b7aadaa8e6",
+        "size_in_bytes": 64702
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/egg_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e991d5bc81231a4730f938e05f08b127a20a81e0f086a637bd273f3054737bc2",
+        "sha256_in_prefix": "e991d5bc81231a4730f938e05f08b127a20a81e0f086a637bd273f3054737bc2",
+        "size_in_bytes": 21611
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/install.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "70b2910516c250edb8a641994b215fa5567bb29aa12dc276818f1efd221e496b",
+        "sha256_in_prefix": "70b2910516c250edb8a641994b215fa5567bb29aa12dc276818f1efd221e496b",
+        "size_in_bytes": 3991
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "663193e37290f6097399d2ce3b95feebc72b3fc12a7a196369c4ddd52f2b8731",
+        "sha256_in_prefix": "663193e37290f6097399d2ce3b95feebc72b3fc12a7a196369c4ddd52f2b8731",
+        "size_in_bytes": 2367
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/install_lib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c6c378667e8eeb17d45835ffc70e1bbac03031aa0652b8405ba880f7e70759d",
+        "sha256_in_prefix": "6c6c378667e8eeb17d45835ffc70e1bbac03031aa0652b8405ba880f7e70759d",
+        "size_in_bytes": 4063
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/install_scripts.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "220e9fe116155341189a085f1391c727658b82951d46bb99ab400ba6dbeeb8ea",
+        "sha256_in_prefix": "220e9fe116155341189a085f1391c727658b82951d46bb99ab400ba6dbeeb8ea",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/py36compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8752fc95bb989c99f9a14fc5cbd829883f504a4b9663f1918e1bb6f7895d83f2",
+        "sha256_in_prefix": "8752fc95bb989c99f9a14fc5cbd829883f504a4b9663f1918e1bb6f7895d83f2",
+        "size_in_bytes": 4579
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/register.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "10f9e70f97a7e412930247aea8b90e4629d5ae3c1c40aa7810a1330e29e7f2af",
+        "sha256_in_prefix": "10f9e70f97a7e412930247aea8b90e4629d5ae3c1c40aa7810a1330e29e7f2af",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/rotate.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "54a5b6bbdf9d0f8cad1dbc880222df3c4c2e7282c6b7b743844b82a79ee0b7f0",
+        "sha256_in_prefix": "54a5b6bbdf9d0f8cad1dbc880222df3c4c2e7282c6b7b743844b82a79ee0b7f0",
+        "size_in_bytes": 2504
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/saveopts.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "40b8a10619a71b44f19abc7c8745ef57d86f009a4dd09fe48434cfa2e9f13b78",
+        "sha256_in_prefix": "40b8a10619a71b44f19abc7c8745ef57d86f009a4dd09fe48434cfa2e9f13b78",
+        "size_in_bytes": 880
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/sdist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed1f471bcb8d28923d6d01f6ff7fd561c53cd5481a80d908b7e314e3fd6552a8",
+        "sha256_in_prefix": "ed1f471bcb8d28923d6d01f6ff7fd561c53cd5481a80d908b7e314e3fd6552a8",
+        "size_in_bytes": 7785
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/setopt.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "35f82e855f5d5cc4c2b3770ad1ed7f1c744dcc8ae8fd235b34bdce2294d4b511",
+        "sha256_in_prefix": "35f82e855f5d5cc4c2b3770ad1ed7f1c744dcc8ae8fd235b34bdce2294d4b511",
+        "size_in_bytes": 4478
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/test.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7306353c6185307c84170674e9e18b3e858cecf65ca4288f31d2fecfe0faa11b",
+        "sha256_in_prefix": "7306353c6185307c84170674e9e18b3e858cecf65ca4288f31d2fecfe0faa11b",
+        "size_in_bytes": 8368
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/upload.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8849c0966d77b1b2f48a69ddd0355873acdb3b574a77c4ef3f3fd701db67b7f",
+        "sha256_in_prefix": "a8849c0966d77b1b2f48a69ddd0355873acdb3b574a77c4ef3f3fd701db67b7f",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/__pycache__/upload_docs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7151eabc2dd496793aff021e097c9586c608cdf3812e92693acc9fa9dc1ff400",
+        "sha256_in_prefix": "7151eabc2dd496793aff021e097c9586c608cdf3812e92693acc9fa9dc1ff400",
+        "size_in_bytes": 6086
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/alias.py",
+        "path_type": "hardlink",
+        "sha256": "2a3a44d2ccff483207bf77e965c2102beb02909cfe4ab0ba1a6ba0e9bf4d91cf",
+        "sha256_in_prefix": "2a3a44d2ccff483207bf77e965c2102beb02909cfe4ab0ba1a6ba0e9bf4d91cf",
+        "size_in_bytes": 2426
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/bdist_egg.py",
+        "path_type": "hardlink",
+        "sha256": "a5563de7e9ec334535fd098ad3578b45e763583c3daee130ad9c4169ef05c990",
+        "sha256_in_prefix": "a5563de7e9ec334535fd098ad3578b45e763583c3daee130ad9c4169ef05c990",
+        "size_in_bytes": 18482
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/bdist_rpm.py",
+        "path_type": "hardlink",
+        "sha256": "07b9744e7cc219bfb49cb966eab4b4d2358b9288c04b05667615b6c39433fc09",
+        "sha256_in_prefix": "07b9744e7cc219bfb49cb966eab4b4d2358b9288c04b05667615b6c39433fc09",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/bdist_wininst.py",
+        "path_type": "hardlink",
+        "sha256": "4e6a9af705b417c8bfef62875a9bbda4376708de84afff2e254b36526080c130",
+        "sha256_in_prefix": "4e6a9af705b417c8bfef62875a9bbda4376708de84afff2e254b36526080c130",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/build_clib.py",
+        "path_type": "hardlink",
+        "sha256": "7d61d2146924d7454275d0560accef361a306c6f59f42657563436b92227a0eb",
+        "sha256_in_prefix": "7d61d2146924d7454275d0560accef361a306c6f59f42657563436b92227a0eb",
+        "size_in_bytes": 4415
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/build_ext.py",
+        "path_type": "hardlink",
+        "sha256": "4584bc709bc2c2fbac1676ca965bcbb5debe1dc4747552335facd5aedc3555cf",
+        "sha256_in_prefix": "4584bc709bc2c2fbac1676ca965bcbb5debe1dc4747552335facd5aedc3555cf",
+        "size_in_bytes": 13187
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/build_py.py",
+        "path_type": "hardlink",
+        "sha256": "7e1a35d1044639a25c737bedb50e6f939298315e87759c23f47508a1be8d1c33",
+        "sha256_in_prefix": "7e1a35d1044639a25c737bedb50e6f939298315e87759c23f47508a1be8d1c33",
+        "size_in_bytes": 9737
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/develop.py",
+        "path_type": "hardlink",
+        "sha256": "c05d82894f708c217c65c7c5ce7d368f6ca57b3f2bd77cff7c4728eaf5b1dc33",
+        "sha256_in_prefix": "c05d82894f708c217c65c7c5ce7d368f6ca57b3f2bd77cff7c4728eaf5b1dc33",
+        "size_in_bytes": 8118
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/dist_info.py",
+        "path_type": "hardlink",
+        "sha256": "e6dea439fadd8002d3f8fde882cb3a3c5f64f8b7b27acb9ec9cba4ddd5326672",
+        "sha256_in_prefix": "e6dea439fadd8002d3f8fde882cb3a3c5f64f8b7b27acb9ec9cba4ddd5326672",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/easy_install.py",
+        "path_type": "hardlink",
+        "sha256": "4f577fdee4052eeafaa8dacdb448a2455ce57840af1c17bd7adafba37226aaec",
+        "sha256_in_prefix": "4f577fdee4052eeafaa8dacdb448a2455ce57840af1c17bd7adafba37226aaec",
+        "size_in_bytes": 86924
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/egg_info.py",
+        "path_type": "hardlink",
+        "sha256": "2caae166ecbe228449679f68ac8076fbf1a3ecd063f4c1e6e6ebb5eb365d13b5",
+        "sha256_in_prefix": "2caae166ecbe228449679f68ac8076fbf1a3ecd063f4c1e6e6ebb5eb365d13b5",
+        "size_in_bytes": 25560
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/install.py",
+        "path_type": "hardlink",
+        "sha256": "f1da0cc5e4040e82b811ca3498ed969575f3ce9f509ec18943b67bc969193c6f",
+        "sha256_in_prefix": "f1da0cc5e4040e82b811ca3498ed969575f3ce9f509ec18943b67bc969193c6f",
+        "size_in_bytes": 4705
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/install_egg_info.py",
+        "path_type": "hardlink",
+        "sha256": "6cc81e21e4625f34380c018f575df6f24723c108c78ce594e059e00162d5efc4",
+        "sha256_in_prefix": "6cc81e21e4625f34380c018f575df6f24723c108c78ce594e059e00162d5efc4",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/install_lib.py",
+        "path_type": "hardlink",
+        "sha256": "533e3631cb321d9023ac1e9cc3d13b073d31b1a4dbcf19ccd4f23d0818623ed1",
+        "sha256_in_prefix": "533e3631cb321d9023ac1e9cc3d13b073d31b1a4dbcf19ccd4f23d0818623ed1",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/install_scripts.py",
+        "path_type": "hardlink",
+        "sha256": "c7bb1d1080aec85a5a7f92ee597713a78f6862df0478d6f02a45b63eff935572",
+        "sha256_in_prefix": "c7bb1d1080aec85a5a7f92ee597713a78f6862df0478d6f02a45b63eff935572",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/launcher manifest.xml",
+        "path_type": "hardlink",
+        "sha256": "c652db8d6ac1d35b4a0b4fa195590e2a48923dbccc9a5d9e38fb49fee7029db1",
+        "sha256_in_prefix": "c652db8d6ac1d35b4a0b4fa195590e2a48923dbccc9a5d9e38fb49fee7029db1",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/py36compat.py",
+        "path_type": "hardlink",
+        "sha256": "4caa85e823effafb041693895189a307399c93e982bffcc724c5cee74d0f1002",
+        "sha256_in_prefix": "4caa85e823effafb041693895189a307399c93e982bffcc724c5cee74d0f1002",
+        "size_in_bytes": 4994
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/register.py",
+        "path_type": "hardlink",
+        "sha256": "924dc3c5709be655d3bea9e17f0c7683aabb8b06d49a04f25d409a068a013949",
+        "sha256_in_prefix": "924dc3c5709be655d3bea9e17f0c7683aabb8b06d49a04f25d409a068a013949",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/rotate.py",
+        "path_type": "hardlink",
+        "sha256": "d4a0fd847a035a9cafb1b7362fb50bad0c54a49b06e7320c94f7f1f322e8c24e",
+        "sha256_in_prefix": "d4a0fd847a035a9cafb1b7362fb50bad0c54a49b06e7320c94f7f1f322e8c24e",
+        "size_in_bytes": 2176
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/saveopts.py",
+        "path_type": "hardlink",
+        "sha256": "cdaed00817108a628aae259ca0271b8713e3533df481207be33b932f8ef1a4fe",
+        "sha256_in_prefix": "cdaed00817108a628aae259ca0271b8713e3533df481207be33b932f8ef1a4fe",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/sdist.py",
+        "path_type": "hardlink",
+        "sha256": "d78901c3f40e67d2ff4500ea81ff4302512ea23d330b7d17e667c359e8b26705",
+        "sha256_in_prefix": "d78901c3f40e67d2ff4500ea81ff4302512ea23d330b7d17e667c359e8b26705",
+        "size_in_bytes": 8092
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/setopt.py",
+        "path_type": "hardlink",
+        "sha256": "353583cb1fa08c317eb717f874ee7beececb3b31d5a0a47432adf7ac5c5a46bf",
+        "sha256_in_prefix": "353583cb1fa08c317eb717f874ee7beececb3b31d5a0a47432adf7ac5c5a46bf",
+        "size_in_bytes": 5085
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/test.py",
+        "path_type": "hardlink",
+        "sha256": "a24570da277aa9887c8450151b3897e9d1187a401b6987ccb44c7b5e182c49b8",
+        "sha256_in_prefix": "a24570da277aa9887c8450151b3897e9d1187a401b6987ccb44c7b5e182c49b8",
+        "size_in_bytes": 9623
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/upload.py",
+        "path_type": "hardlink",
+        "sha256": "5d3dd81557d83c0980e6a8468347ae96e53df1fb714545be3f329c38330bc54b",
+        "sha256_in_prefix": "5d3dd81557d83c0980e6a8468347ae96e53df1fb714545be3f329c38330bc54b",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/command/upload_docs.py",
+        "path_type": "hardlink",
+        "sha256": "1b68078de34f71419efe9af710493fe80a150f413a9c2a79da66605369e40a95",
+        "sha256_in_prefix": "1b68078de34f71419efe9af710493fe80a150f413a9c2a79da66605369e40a95",
+        "size_in_bytes": 7314
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/config.py",
+        "path_type": "hardlink",
+        "sha256": "35cc6de4841357233daaf5f73f107e11bebbfb3a192eae566c3bb2bb723681dd",
+        "sha256_in_prefix": "35cc6de4841357233daaf5f73f107e11bebbfb3a192eae566c3bb2bb723681dd",
+        "size_in_bytes": 21782
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/dep_util.py",
+        "path_type": "hardlink",
+        "sha256": "043c75064ccd427b6f001e1a972a476d6e54541ce3aad86cd34d0fad42f866a7",
+        "sha256_in_prefix": "043c75064ccd427b6f001e1a972a476d6e54541ce3aad86cd34d0fad42f866a7",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/depends.py",
+        "path_type": "hardlink",
+        "sha256": "aadd915a5940ad1be19e6f25c6cc91a5cb61119629e061d0811125d6ad0b905c",
+        "sha256_in_prefix": "aadd915a5940ad1be19e6f25c6cc91a5cb61119629e061d0811125d6ad0b905c",
+        "size_in_bytes": 5517
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/dist.py",
+        "path_type": "hardlink",
+        "sha256": "39febd6c1a54cc55adf68fd14e9b4fb7edcc59573793f2c87776fb861f2b050b",
+        "sha256_in_prefix": "39febd6c1a54cc55adf68fd14e9b4fb7edcc59573793f2c87776fb861f2b050b",
+        "size_in_bytes": 39350
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/distutils_patch.py",
+        "path_type": "hardlink",
+        "sha256": "afc2dabaab5582e4d417182ebd4eed0e117c1d3800908047839fa180f7922797",
+        "sha256_in_prefix": "afc2dabaab5582e4d417182ebd4eed0e117c1d3800908047839fa180f7922797",
+        "size_in_bytes": 1754
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/errors.py",
+        "path_type": "hardlink",
+        "sha256": "31539cbf7f351cd49a8c3804516cce43827a0790470813128c77da59c130035a",
+        "sha256_in_prefix": "31539cbf7f351cd49a8c3804516cce43827a0790470813128c77da59c130035a",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/extension.py",
+        "path_type": "hardlink",
+        "sha256": "b9cea71c8f8cc7098d08d3db522067c9b4b2aa1a49aa36e1bce43e7a676fb7f1",
+        "sha256_in_prefix": "b9cea71c8f8cc7098d08d3db522067c9b4b2aa1a49aa36e1bce43e7a676fb7f1",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/extern/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "06294c4bd1ead7c9c16943b3702af3a08f479c8863bb8e6254906c72a4ea9432",
+        "sha256_in_prefix": "06294c4bd1ead7c9c16943b3702af3a08f479c8863bb8e6254906c72a4ea9432",
+        "size_in_bytes": 2128
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/extern/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "aca1d4923cccbf18ab978ccb8a81f1a1ac7dba1ddaae1f9624f9227dbd18213c",
+        "sha256_in_prefix": "aca1d4923cccbf18ab978ccb8a81f1a1ac7dba1ddaae1f9624f9227dbd18213c",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/glob.py",
+        "path_type": "hardlink",
+        "sha256": "a3be5c1eb3b162cbe7f39e2d852c44d31f64f09aca0ee84ffeb457955074d10e",
+        "sha256_in_prefix": "a3be5c1eb3b162cbe7f39e2d852c44d31f64f09aca0ee84ffeb457955074d10e",
+        "size_in_bytes": 5084
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/gui-32.exe",
+        "path_type": "hardlink",
+        "sha256": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "sha256_in_prefix": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/gui-64.exe",
+        "path_type": "hardlink",
+        "sha256": "69828c857d4824b9f850b1e0597d2c134c91114b7a0774c41dffe33b0eb23721",
+        "sha256_in_prefix": "69828c857d4824b9f850b1e0597d2c134c91114b7a0774c41dffe33b0eb23721",
+        "size_in_bytes": 75264
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/gui.exe",
+        "path_type": "hardlink",
+        "sha256": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "sha256_in_prefix": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/installer.py",
+        "path_type": "hardlink",
+        "sha256": "989e927519a15a96750a0dc7fcb59dd48a19a1e0b6b780529245ccbaf85878ac",
+        "sha256_in_prefix": "989e927519a15a96750a0dc7fcb59dd48a19a1e0b6b780529245ccbaf85878ac",
+        "size_in_bytes": 5343
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/launch.py",
+        "path_type": "hardlink",
+        "sha256": "4f23d3f887354f612762f18edba81f3513f8cac065ae1a5b4634315ac88ee35e",
+        "sha256_in_prefix": "4f23d3f887354f612762f18edba81f3513f8cac065ae1a5b4634315ac88ee35e",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/lib2to3_ex.py",
+        "path_type": "hardlink",
+        "sha256": "96b8e17ece1056d5a9eb93ee0135a33c1717c70b9b83d77cd5ed2aaefd2a3a92",
+        "sha256_in_prefix": "96b8e17ece1056d5a9eb93ee0135a33c1717c70b9b83d77cd5ed2aaefd2a3a92",
+        "size_in_bytes": 2384
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/monkey.py",
+        "path_type": "hardlink",
+        "sha256": "14673d7df7e1ee003130b16626cd835bf3985a906391d6cd4b69f5e1400ae0d0",
+        "sha256_in_prefix": "14673d7df7e1ee003130b16626cd835bf3985a906391d6cd4b69f5e1400ae0d0",
+        "size_in_bytes": 5264
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/msvc.py",
+        "path_type": "hardlink",
+        "sha256": "f3122a9f6d2767fa68ca7c3ab03bd9b9410237f2a53a375335fa2cb2b95231c6",
+        "sha256_in_prefix": "f3122a9f6d2767fa68ca7c3ab03bd9b9410237f2a53a375335fa2cb2b95231c6",
+        "size_in_bytes": 51225
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/namespaces.py",
+        "path_type": "hardlink",
+        "sha256": "42ebc847c4b9faefd2f3f7cb8cfa67feeb6bb9422cbb6b70751bbf2893eb294d",
+        "sha256_in_prefix": "42ebc847c4b9faefd2f3f7cb8cfa67feeb6bb9422cbb6b70751bbf2893eb294d",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/package_index.py",
+        "path_type": "hardlink",
+        "sha256": "bd9a2174b6ce72aafa1c0e29215847c4e169cfd6a921e6db23071ec078c72202",
+        "sha256_in_prefix": "bd9a2174b6ce72aafa1c0e29215847c4e169cfd6a921e6db23071ec078c72202",
+        "size_in_bytes": 40997
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/py27compat.py",
+        "path_type": "hardlink",
+        "sha256": "0961e4596018a1dbb742088802bf3edf84fe1ba7e24a0895174cbb875d4b77b5",
+        "sha256_in_prefix": "0961e4596018a1dbb742088802bf3edf84fe1ba7e24a0895174cbb875d4b77b5",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/py31compat.py",
+        "path_type": "hardlink",
+        "sha256": "876aed66084e7f0a0661df2c434f9ab9a2a21774dc2f7a97d1b5f755eb2ca9c1",
+        "sha256_in_prefix": "876aed66084e7f0a0661df2c434f9ab9a2a21774dc2f7a97d1b5f755eb2ca9c1",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/py33compat.py",
+        "path_type": "hardlink",
+        "sha256": "48c17d67cc271a27133a4535b9137067f933e59fdb8f6f4f5016ea76a79e36c7",
+        "sha256_in_prefix": "48c17d67cc271a27133a4535b9137067f933e59fdb8f6f4f5016ea76a79e36c7",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/py34compat.py",
+        "path_type": "hardlink",
+        "sha256": "29839deb26d1c63056f0d266603f2dfd4cb2566caca69157a87a452ddb251975",
+        "sha256_in_prefix": "29839deb26d1c63056f0d266603f2dfd4cb2566caca69157a87a452ddb251975",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/sandbox.py",
+        "path_type": "hardlink",
+        "sha256": "28e5a5d35d66c145f639d2e671333af740933a7799109c4af512176d7c862ffa",
+        "sha256_in_prefix": "28e5a5d35d66c145f639d2e671333af740933a7799109c4af512176d7c862ffa",
+        "size_in_bytes": 14251
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/script (dev).tmpl",
+        "path_type": "hardlink",
+        "sha256": "454cd0cc2414697b7074bb581d661b21098e6844b906baaad45bd403fb6efb92",
+        "sha256_in_prefix": "454cd0cc2414697b7074bb581d661b21098e6844b906baaad45bd403fb6efb92",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/script.tmpl",
+        "path_type": "hardlink",
+        "sha256": "5864ede6989eccedbb73e0dbc7a9794384f715fdb4039cfbf3bda1bf76808586",
+        "sha256_in_prefix": "5864ede6989eccedbb73e0dbc7a9794384f715fdb4039cfbf3bda1bf76808586",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/ssl_support.py",
+        "path_type": "hardlink",
+        "sha256": "4cd34eab757257ee30911c26d1d9b223317e89705e5afe32210f7d7966bf6d5f",
+        "sha256_in_prefix": "4cd34eab757257ee30911c26d1d9b223317e89705e5afe32210f7d7966bf6d5f",
+        "size_in_bytes": 8543
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/unicode_utils.py",
+        "path_type": "hardlink",
+        "sha256": "34e899ff9843ef603ac3ee30563f1ac0714cde7e752a6c3521cfefc75e5716ac",
+        "sha256_in_prefix": "34e899ff9843ef603ac3ee30563f1ac0714cde7e752a6c3521cfefc75e5716ac",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/version.py",
+        "path_type": "hardlink",
+        "sha256": "a20fdcb9941bd1023aba429915f6563e5af51e02413cf9f6bceda6fdb23d6531",
+        "sha256_in_prefix": "a20fdcb9941bd1023aba429915f6563e5af51e02413cf9f6bceda6fdb23d6531",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/wheel.py",
+        "path_type": "hardlink",
+        "sha256": "60b3767dccc3571917df08c796dfc4321fb831f1cee8db3a95d4699e49fe69af",
+        "sha256_in_prefix": "60b3767dccc3571917df08c796dfc4321fb831f1cee8db3a95d4699e49fe69af",
+        "size_in_bytes": 8371
+      },
+      {
+        "_path": "lib/python3.7/site-packages/setuptools/windows_support.py",
+        "path_type": "hardlink",
+        "sha256": "e46adfa923f6f9d2c6268653ab683a7422a4c90c716b69f92108979490a86041",
+        "sha256_in_prefix": "e46adfa923f6f9d2c6268653ab683a7422a4c90c716b69f92108979490a86041",
+        "size_in_bytes": 714
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "539e4398f7f8b23ada29dccc5dd82575b914bb1a8b40aab3ee0cdb7f4051b48e",
+  "size": 762715,
+  "subdir": "osx-64",
+  "timestamp": 1594754126487,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/setuptools-49.2.0-py37_0.conda",
+  "version": "49.2.0"
+}
