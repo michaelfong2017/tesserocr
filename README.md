@@ -4,26 +4,43 @@ You can also look at [this tutorial](https://medium.com/better-programming/begin
 ## Installation
 ### MacOS
 #### 1. Create a conda environment
+##### Method 1: Create from scratch
+1. Create an environment with default packages installed.
+
 ```console
 $ conda create -n tesserocr_env python=3.7
 $ conda activate tesserocr_env
 ```
-For more details, please refer to [managing conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
-#### 2. Install tesserocr package
+2. Install tesserocr package
+
 ```console
 $ conda install -c conda-forge tesserocr
 ```
 
-#### 3. Add your conda environment to your jupyter notebook
+3. Install ipykernel package for adding your conda environment to your jupyter notebook
+```console
+$ conda install -c anaconda ipykernel
+```
+
+##### Method 2: Create from an environment.yml file
+1. In terminal, navigate to the folder that contains the [environment.yml file](https://github.com/michaelfong2017/tesserocr/blob/master/environment.yml).
+
+2. Create an environment with all the required packages installed.
+```console
+$ conda env create -n tesserocr_env -f environment.yml
+```
+
+For more details, please refer to [managing conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+#### 2. Add your conda environment to your jupyter notebook
 You may refer to [add conda environment to jupyter notebook](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084) and [remove virtual environment from jupyter notebook](https://medium.com/analytics-vidhya/create-virtual-environment-using-conda-and-add-it-to-jupyter-notebook-d319a81dfd1).
 
 ```console
-$ conda install -c anaconda ipykernel
 $ python -m ipykernel install --user --name=tesserocr_env
 ```
 
-#### 4. Start using jupyter notebook
+#### 3. Start using jupyter notebook
 1. Go to your home directory.
 
 ```console
