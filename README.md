@@ -177,3 +177,61 @@ This module also provides other helper functions.
         with nogil:
             self._init_api(cpath, clang, oem, NULL, 0, NULL, NULL, False, PSM_AUTO)
 ```
+
+## Other utilities
+### pdf2image
+#### Installation
+0. Remember to activate the conda environment first (tesserocr_env).
+1. Install poppler.
+
+```console
+$ conda install -c conda-forge poppler
+```
+
+2. Install pdf2image.
+
+```console
+$ pip install pdf2image
+```
+
+3. Take note of the path to a file called "pdfinfo". In my computer, it is stored in "/Users/michael/opt/anaconda3/envs/tesserocr_env/bin".\
+Later in the "convert_from_path" function, we have to specify the "poppler_path" argument.\
+For example,
+```python
+images = convert_from_path('input/pdf2image.pdf', poppler_path="/Users/michael/opt/anaconda3/envs/tesserocr_env/bin")
+```
+#### Example
+In the following example, we convert a 3-pages pdf in /tesserocr/src/input to 3 images and save them to /tesserocr/src/input.
+```python
+from pdf2image import convert_from_path, convert_from_bytes
+from PIL import Image
+
+from pdf2image.exceptions import (
+    PDFInfoNotInstalledError,
+    PDFPageCountError,
+    PDFSyntaxError
+)
+'''
+We need to specify the [poppler_path] variable to locate the [pdfinfo] executable (from poppler installation).
+That is, [poppler_path] is the path to the folder containing [pdfinfo].
+
+Directory tree structure of this project:
+
+/tesserocr
+├── src
+│   ├── example.ipynb
+│
+└── tesserocr_env
+    ├── bin
+       ├── pdfinfo
+       
+Therefore, when navigating from example.ipynb, "../tesserocr_env/bin" is the folder containing pdfinfo.
+''' 
+## input pdf file from /tesserocr/src/input
+images = convert_from_path('input/pdf2image.pdf', poppler_path="../tesserocr_env/bin")
+for i in range(len(images)):
+    image = images[i]
+    # image.show()
+    ## save files in /tesserocr/src/input
+    image.save("input/pdf2image"+str(i+1)+".jpg")
+```
