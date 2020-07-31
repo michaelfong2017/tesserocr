@@ -195,6 +195,7 @@ $ pip install pdf2image
 ```
 
 3. Take note of the path to a file called "pdfinfo". In my computer, it is stored in "/Users/michael/opt/anaconda3/envs/tesserocr_env/bin".\
+In this project, "pdfinfo" is stored in [here](https://github.com/michaelfong2017/tesserocr/tree/master/tesserocr_env/bin).\
 Later in the "convert_from_path" function, we have to specify the "poppler_path" argument.\
 For example,
 ```python
