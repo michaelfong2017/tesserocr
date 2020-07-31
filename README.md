@@ -182,6 +182,11 @@ This module also provides other helper functions.
 ### pdf2image
 #### Installation
 0. Remember to activate the conda environment first (tesserocr_env).
+
+```console
+$ conda activate tesserocr_env
+```
+
 1. Install poppler.
 
 ```console
