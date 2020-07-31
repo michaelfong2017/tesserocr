@@ -1,4 +1,4 @@
-#!/Users/michael/opt/anaconda3/envs/tesserocr_env/bin/perl
+#!/usr/bin/env perl
 # Copyright 2002-2018 The OpenSSL Project Authors. All Rights Reserved.
 # Copyright (c) 2002 The OpenTSA Project. All rights reserved.
 #
