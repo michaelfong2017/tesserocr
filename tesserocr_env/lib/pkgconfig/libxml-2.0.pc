@@ -1,0 +1,13 @@
+prefix=/Users/michael/opt/anaconda3/envs/tesserocr_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.10
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -licui18n -licuuc -licudata -lpthread -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -lz -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -llzma -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -liconv -lm  
+Cflags: -I${includedir}/libxml2 -I/Users/michael/opt/anaconda3/envs/tesserocr_env/include 

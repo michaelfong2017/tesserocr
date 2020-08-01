@@ -1,0 +1,12 @@
+prefix=/Users/michael/opt/anaconda3/envs/tesserocr_env
+libdir=/Users/michael/opt/anaconda3/envs/tesserocr_env/lib
+includedir=/Users/michael/opt/anaconda3/envs/tesserocr_env/include
+
+Name: poppler-glib
+Description: GLib wrapper for poppler
+Version: 0.90.1
+Requires: glib-2.0 >= 2.41 gobject-2.0 >= 2.41 cairo >= 1.10.0
+Requires.private: poppler = 0.90.1
+
+Libs: -L${libdir} -lpoppler-glib
+Cflags: -I${includedir}/poppler/glib

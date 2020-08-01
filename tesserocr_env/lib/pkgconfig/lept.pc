@@ -1,0 +1,12 @@
+prefix=/Users/michael/opt/anaconda3/envs/tesserocr_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/leptonica
+
+Name: leptonica
+Description: An open source C library for efficient image processing and image analysis operations
+Version: 1.78.0
+Libs: -L${libdir} -llept
+Libs.private: -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -lz -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -lpng16 -lz -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -ljpeg -lgif -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -ltiff -L/Users/michael/opt/anaconda3/envs/tesserocr_env/lib -lwebp
+Cflags: -I${includedir}
+
