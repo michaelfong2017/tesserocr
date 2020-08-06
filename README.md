@@ -2,7 +2,7 @@
 We will be using a python wrapper for Tesseract OCR called [tesserocr](https://github.com/sirfz/tesserocr).
 You can also look at [this tutorial](https://medium.com/better-programming/beginners-guide-to-tesseract-ocr-using-python-10ecbb426c3d) for more information.
 ## Installation
-### MacOS
+### Install using conda
 #### 1. Create a conda environment
 ##### Method 1: Create from scratch
 1. Create an environment with default packages installed.
@@ -58,6 +58,35 @@ $ jupyter notebook
 
 ![alt text](https://github.com/michaelfong2017/tesserocr/blob/master/documentation/images/jupyter_env.jpeg?raw=true)
 
+### Install without conda/pip/apt-get
+For those who cannot use conda, pip or apt-get to install packages, they need to download the whole environment folder from github, and then append the "path to modules" to sys.path.
+
+sys.path explanation:\
+When you start a Python interpreter, one of the things it creates automatically is a list that contains all of directories it will use to search for modules when importing. This list is available in a variable named sys.path. That is, sys.path tells the Python interpreter where to import modules.
+
+1. Download the whole environment folder [tesserocr_env](https://github.com/michaelfong2017/tesserocr/tree/master/tesserocr_env) from github and put it somewhere inside the project folder.
+2. In your script that runs first, include the following codes at the beginning.
+```python
+import sys
+if "../tesserocr_env/lib/python3.7/site-packages" not in sys.path:
+    sys.path.append("../tesserocr_env/lib/python3.7/site-packages")
+```
+Directory tree structure of this project:
+```python
+'''
+/tesserocr
+├── src
+│   ├── example.ipynb
+│
+└── tesserocr_env
+    ├── lib
+       ├── python3.7
+          ├── site-packages
+'''
+```
+Therefore, when navigating from example.ipynb, "../tesserocr_env" is the environment folder.
+Note that we need to navigate exactly to the [site-packages](https://github.com/michaelfong2017/tesserocr/tree/master/tesserocr_env/lib/python3.7/site-packages) folder. Hence, the path is "../tesserocr_env/lib/python3.7/site-packages".
+
 ## Usage
 1. Create a PyTessBaseAPI object and assign it to a variable.
 
@@ -83,6 +112,37 @@ for img in images:
 
 ## Example
 Please refer to [my jupyter notebook example](https://github.com/michaelfong2017/tesserocr/blob/master/src/example.ipynb).
+
+## Points to note
+### 90 degree rotated image
+Image inputs may be rotated. A series of image inputs may have different orientations.
+For example, "input/pdf2image3.jpg" and "input/pdf2image4.jpg" have different orientations.
+```python
+images = ["input/pdf2image3.jpg", "input/pdf2image4.jpg"]
+```
+By specifying psm=PSM.AUTO_OSD, the orientation of all images is automatically detected. Image-to-text then works perfectly under correct orientation.
+```python
+with PyTessBaseAPI(psm=PSM.AUTO_OSD) as api:
+    for image in images:
+        api.SetImageFile(image)
+# There are other page segmentation modes (PSMs):
+'''
+0 : OSD_ONLY: Orientation and script detection only.
+1 : AUTO_OSD: Automatic page segmentation with orientation and script detection. (OSD)
+2 : AUTO_ONLY: Automatic page segmentation, but no OSD, or OCR.
+3 : AUTO: Fully automatic page segmentation, but no OSD. (default mode for tesserocr)
+4 : SINGLE_COLUMN: Assume a single column of text of variable sizes.
+5 : SINGLE_BLOCK_VERT_TEXT: Assume a single uniform block of vertically aligned text.
+6 : SINGLE_BLOCK: Assume a single uniform block of text.
+7 : SINGLE_LINE: Treat the image as a single text line.
+8 : SINGLE_WORD: Treat the image as a single word.
+9 : CIRCLE_WORD: Treat the image as a single word in a circle.
+10 : SINGLE_CHAR: Treat the image as a single character.
+11 : SPARSE_TEXT: Find as much text as possible in no particular order.
+12 : SPARSE_TEXT_OSD: Sparse text with orientation and script detection
+13 : RAW_LINE: Treat the image as a single text line, bypassing hacks that are Tesseract-specific.
+'''
+```
 
 ## API documentation
 All interfaces can be found in the [Python wrapper around the Tesseract-OCR C++ API](https://github.com/sirfz/tesserocr/blob/master/tesserocr.pyx).
